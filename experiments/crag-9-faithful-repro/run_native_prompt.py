@@ -1,15 +1,12 @@
-"""Native-prompt sanity cells for the three faithful reproductions (P1 #4, R2 W1).
+"""Native-prompt sanity cells for the three faithful reproductions.
 
-Reviewer concern: by forcing Mem0/HippoRAG/A-MEM through cell-J's FCS
-prompt + 96-token cap, we may be hobbling rather than steel-manning.
-
-This run keeps the generator (Qwen2.5-14B) and retrieval/memory layer
-fixed at the faithful-repro versions, but swaps the answer prompt for
-a loose/native version with a 256-token budget. Compares to the
-existing cell-J-style result on the same n=200 stratified subset.
+Holds the generator (Qwen2.5-14B) and retrieval/memory layer fixed at the
+faithful-repro versions, but swaps the answer prompt for a native loose
+prompt with a 256-token budget instead of cell J's FCS prompt + 96-token
+cap. Run on the same n=200 stratified subset to enable paired comparison.
 
 Output: results_native_prompt_summary.json with per-system native-prompt
-F1 + ∆ vs cell-J-FCS version + ∆ vs cell J flat-BM25+FCS reference.
+F1, delta vs cell-J-FCS version, and delta vs cell J flat-BM25+FCS reference.
 """
 from __future__ import annotations
 import argparse, json, os, sys, time, uuid, tempfile

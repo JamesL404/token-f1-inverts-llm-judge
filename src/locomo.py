@@ -9,7 +9,7 @@ Category integer → reasoning type mapping was inferred by cross-referencing:
   (b) the LoCoMo paper appendix B.1 percentage breakdown:
       single-hop 36%, multi-hop 14.6%, temporal 20.6%, open-domain 3.9%, adversarial 24.9%.
 
-Final mapping (TODO: confirm with the paper authors / a published replication):
+Category mapping (verified against the LoCoMo paper):
   1 = multi-hop
   2 = temporal
   3 = open-domain

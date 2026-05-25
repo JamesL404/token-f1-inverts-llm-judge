@@ -1,16 +1,12 @@
 """Paired LLM-judge on the three faithful-repro vs cell-J cell pairs.
 
-Closes the natural Finding-1 extension: do HippoRAG +0.030 token-F1
-(p=0.042 one-sided) and A-MEM -0.043 token-F1 (p=0.043 one-sided)
-survive cross-family LLM-judge? Mem0 +0.021 token-F1 included for
-completeness (already n.s. under token-F1).
+For each of (Mem0, HippoRAG, A-MEM with evolution) vs cell J on the same
+n=200 stratified LongMemEval subset, runs gpt-4o-mini and Claude-Sonnet-4.5
+as paired correctness judges and computes paired McNemar.
 
-Pairs predictions by question_id (NOT positional index), since the
-faithful-repro JSONs were drawn from a stratified n=200 subset of
-LongMemEval oracle while cell J covers n=500.
-
-Per cell pair, runs gpt-4o-mini and Claude-Sonnet-4.5, computes
-judge accuracy + paired McNemar.
+Predictions are paired by question_id (not positional index), because the
+faithful-repro JSONs were drawn from a stratified n=200 subset of LongMemEval
+oracle while cell J covers n=500.
 
 Output: experiments/crag-9-faithful-repro/results_judge_<system>_vs_cellj.json
 """

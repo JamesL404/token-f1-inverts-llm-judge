@@ -1,21 +1,19 @@
-"""Multi-seed held-out FCS calibration ablation (P0 #1, addresses DA C1).
+"""Multi-seed held-out FCS calibration ablation.
 
-Senior reviewer concern: the original held-out FCS ablation only varied
-the p75 word-cap; abstention strings and answer-form templates were held
-fixed. And it was a single seed.
+Quantifies how much of the +0.082 FCS token-F1 gain is attributable to
+direct test-gold leakage by varying all three render-relevant SurfaceForm
+fields (p75 word cap, dominant answer form, abstention strings) across
+random calibration / test splits.
 
-This run:
-  - 5 different 50/50 splits of LongMemEval oracle (seeds 20260506,
-    20260507, 20260508, 20260509, 20260510)
-  - Each seed: profile gold answers on the calibration half ONLY
-  - For each (category, seed), record p75_words, dominant_form,
-    abstention_strings — the three render-relevant SurfaceForm values
+For each of 5 random 50/50 splits of LongMemEval oracle (seeds 20260506
+through 20260510):
+  - Profile gold answers on the calibration half only
+  - Record p75_words, dominant_form, abstention_strings per category
   - Generate held-out FCS prompts per category from the cal-half profile
-    (varies "at most N words" cap; for categories where dominant_form or
-    abstention_strings change, regenerate the prompt accordingly)
+    (regenerate templates if dominant_form or abstention_strings change)
   - Run cell J on the corresponding test half with the cal-half FCS prompts
-  - Compare to: cell J on the same test half with the full-data FCS prompts
-  - Report mean ± SD of the leakage component across the 5 seeds
+  - Compare to cell J on the same test half with the full-data FCS prompts
+  - Report mean +/- SD of the leakage component across the 5 seeds
 """
 from __future__ import annotations
 import json, random, sys, tempfile, shutil, os

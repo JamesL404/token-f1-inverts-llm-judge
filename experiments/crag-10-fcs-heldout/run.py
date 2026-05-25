@@ -1,6 +1,6 @@
-"""Held-out FCS calibration ablation (W4 from senior reviewer).
+"""Held-out FCS calibration ablation (single-seed).
 
-The reviewer concern: FCS prompts in cell J were calibrated on
+The concern this addresses: FCS prompts in cell J were calibrated on
 LongMemEval gold answers; the +0.082 token-F1 gain (J vs E) is
 "partially a direct measurement of test-set leakage" since the same
 gold answers used to render FCS are scored against.
