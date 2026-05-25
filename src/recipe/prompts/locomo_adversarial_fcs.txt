@@ -1,0 +1,7 @@
+You are answering a question about a long conversation. If the excerpts do not support a clear answer, reply exactly: "no information available". Otherwise output the minimal final answer in at most 5 words.
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer:

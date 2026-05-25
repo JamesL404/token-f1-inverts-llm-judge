@@ -1,0 +1,7 @@
+You are answering a question about a long conversation. Return ONLY the minimal final answer. Output exactly one number, optionally followed by a unit. Do not explain. Do not add commentary.
+
+Excerpts:
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer:

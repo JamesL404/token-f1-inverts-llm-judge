@@ -1,0 +1,94 @@
+# Environments and secrets
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+secrets.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and partial runs
+*.log
+*.log.partial
+*.partial
+nohup.out
+run_*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data (download separately per data/README.md)
+data/raw/
+data/locomo/
+data/LongMemEval/
+data/longmemeval_*.json
+data/locomo*.json
+data/beam/
+
+# Model checkpoints
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+checkpoints/
+huggingface_cache/
+.cache/
+
+# Result artifacts that are too large or temporary
+tmp/
+scratch/
+*.tmp
+
+# OS-specific
+.directory
+desktop.ini
+
+# Profiling / debugging
+*.prof
+profile_output*
+
+# HippoRAG / A-MEM persistent stores (per-question, rebuilt on demand)
+hipporag_save/
+agentic_memory_data/
+mem0_data/
+chroma_db/

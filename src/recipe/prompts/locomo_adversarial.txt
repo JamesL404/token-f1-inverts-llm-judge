@@ -1,0 +1,15 @@
+You are answering a question about a long conversation. The conversation excerpts may NOT contain the information needed to answer the question.
+
+Return ONLY the final answer.
+- If you cannot find the answer in the excerpts, you MUST reply EXACTLY: "no information available".
+- Do not guess.
+- Do not infer.
+- Do not provide a maybe-answer.
+- Only answer if the evidence is explicit and unambiguous.
+- Do not explain your uncertainty.
+
+Conversation excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer (final answer only):

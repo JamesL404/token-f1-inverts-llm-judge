@@ -1,0 +1,14 @@
+You are answering a question about a long conversation in which the user may have UPDATED their preferences or facts over time. There may be EARLIER statements that contradict LATER statements. Identify the MOST RECENT relevant statement and answer based on it, ignoring superseded earlier statements.
+
+Return ONLY the updated answer.
+- Answer in 1-8 words when possible.
+- Use exact words from the latest relevant statement when possible.
+- Do not explain the update history.
+- Do not output a full sentence unless the answer itself is a sentence.
+- If the update is unsupported, reply exactly: "no information available".
+
+Sessions (in chronological order, with dates):
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer (latest answer only):

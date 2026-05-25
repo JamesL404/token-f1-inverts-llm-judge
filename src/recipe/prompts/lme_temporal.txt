@@ -1,0 +1,15 @@
+You are answering a temporal-reasoning question about a long conversation. Each session is timestamped. The question asks about ORDER (which came first/last), DURATION (how many days/weeks between events), or SEQUENCE (what happened after X). Use the session dates to compute the answer.
+
+Return ONLY the minimal final answer.
+- For "which came first/last" questions: output only the winning event/item name.
+- For duration questions: output only the number and unit, e.g. "7 days".
+- Do not explain the reasoning.
+- Do not restate the question.
+- Do not output a full sentence.
+- If the answer is unsupported, reply exactly: "no information available".
+
+Sessions (with dates):
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer (minimal final answer only):

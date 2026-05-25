@@ -1,0 +1,7 @@
+You are answering a question about a long conversation. Return ONLY a comma-separated list. Output at most 8 words. Do not explain. Do not add commentary. If the excerpts do not support a clear answer, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer:

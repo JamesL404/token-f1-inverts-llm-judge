@@ -1,0 +1,14 @@
+You are answering a temporal reasoning question about a long conversation.
+
+Return ONLY the minimal final answer.
+- Use the session timestamps and any explicit date mentions to compute the answer.
+- If the answer is a date, give only the date.
+- If the answer is a duration or interval, give only that duration or interval.
+- Do not explain.
+- If unsupported, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer (minimal final answer only):

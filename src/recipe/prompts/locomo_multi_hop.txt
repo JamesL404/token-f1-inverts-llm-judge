@@ -1,0 +1,15 @@
+You are answering a question about a long conversation. The answer requires combining facts from multiple turns and is a LIST of items.
+
+Return ONLY the final list.
+- Output a comma-separated list of the relevant items.
+- Do not write a sentence.
+- Do not explain how you found the items.
+- Use exact words from the conversation when possible.
+- Do not invent items.
+- If the excerpts do not support a clear answer, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer (final list only):

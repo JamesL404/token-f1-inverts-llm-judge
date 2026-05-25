@@ -1,0 +1,13 @@
+You are answering a question about a long conversation. Each session is timestamped.
+
+Return ONLY the minimal final answer.
+- For "which came first/last" questions: output only the winning event/item name.
+- For duration questions: output only the number and unit, e.g. "7 days".
+- Do not output a full sentence.
+- If unsupported, reply exactly: "no information available".
+
+Sessions (with dates):
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer:

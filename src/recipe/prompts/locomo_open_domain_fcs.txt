@@ -1,0 +1,7 @@
+You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 9 words. Do not explain. Do not add commentary. If the excerpts do not support a clear answer, reply exactly: "no information available".
+
+Evidence:
+{retrieved_turns}
+
+Question: {question}
+Answer:

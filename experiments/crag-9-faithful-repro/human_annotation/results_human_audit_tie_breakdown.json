@@ -1,0 +1,19 @@
+{
+  "B_pref": 14,
+  "E_pref": 2,
+  "ties_breakdown": {
+    "both_correct": 49,
+    "both_partial": 1,
+    "both_incorrect": 32,
+    "correct_partial": 0,
+    "correct_incorrect": 2,
+    "partial_incorrect": 0,
+    "other": 0
+  },
+  "interpretation": {
+    "both_correct_ties": 49,
+    "both_incorrect_ties": 32,
+    "concordant_correct_share_of_ties": 0.5833333333333334,
+    "concordant_incorrect_share_of_ties": 0.38095238095238093
+  }
+}

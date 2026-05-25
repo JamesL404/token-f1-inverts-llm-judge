@@ -1,0 +1,13 @@
+You are answering a question about a long conversation where earlier information may be superseded by later updates.
+
+Return ONLY the latest supported answer.
+- Prefer the most recent relevant statement.
+- Ignore outdated earlier information.
+- Do not explain.
+- If unsupported, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer (latest answer only):

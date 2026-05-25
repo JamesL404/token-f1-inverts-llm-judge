@@ -1,0 +1,39 @@
+{
+  "n_paired": 200,
+  "mem0_aggregate_f1": 0.482771341547284,
+  "cellj_aggregate_f1": 0.4618440000000001,
+  "delta_mem0_minus_j": 0.02092734154728393,
+  "paired_bootstrap": {
+    "B": 10000,
+    "ci_90_low": -0.03128813002772703,
+    "ci_90_high": 0.07500743494408973,
+    "one_sided_p_le_zero": 0.2492
+  },
+  "per_label": {
+    "single-session": {
+      "n": 50,
+      "mem0_f1": 0.4917429935799389,
+      "cellj_f1": 0.57359
+    },
+    "knowledge-update": {
+      "n": 50,
+      "mem0_f1": 0.5708232323232323,
+      "cellj_f1": 0.64984
+    },
+    "temporal": {
+      "n": 50,
+      "mem0_f1": 0.3740239177907413,
+      "cellj_f1": 0.37907199999999996
+    },
+    "multi-session": {
+      "n": 50,
+      "mem0_f1": 0.4944952224952225,
+      "cellj_f1": 0.24487399999999998
+    }
+  },
+  "pairwise": {
+    "mem0_wins": 42,
+    "j_wins": 54,
+    "ties": 104
+  }
+}

@@ -1,0 +1,7 @@
+You are answering a question about a long conversation between a user and an assistant. The answer is a specific fact stated in one of the conversation turns. Read the excerpt below and extract the answer in 1-10 words. Use exact words from the conversation when possible.
+
+Excerpt:
+{retrieved_turns}
+
+Question: {question}
+Answer:

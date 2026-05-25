@@ -1,0 +1,21 @@
+{
+  "system": "HippoRAG (n=449 paired vs cell J, single-seed bootstrap)",
+  "n_paired": 449,
+  "sys_f1": 0.4694160551476082,
+  "cellj_f1": 0.43917795100222706,
+  "delta": 0.030238104145380917,
+  "paired_bootstrap": {
+    "B": 10000,
+    "ci_90": [
+      0.0013874334216085655,
+      0.0585162843715221
+    ],
+    "one_sided_p_le_zero": 0.042,
+    "one_sided_p_ge_zero": 0.958
+  },
+  "pairwise_at_delta_0p05": {
+    "sys_wins": 85,
+    "j_wins": 60,
+    "ties": 304
+  }
+}

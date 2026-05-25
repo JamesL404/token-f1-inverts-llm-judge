@@ -1,0 +1,7 @@
+You are answering a question about a long conversation between {speaker_a} and {speaker_b}. Read the retrieved excerpts and answer the question as briefly as possible using only the evidence provided. If the answer is not supported by the excerpts, reply exactly: "no information available".
+
+Conversation excerpts:
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer:

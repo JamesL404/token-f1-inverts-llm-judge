@@ -1,0 +1,53 @@
+{
+  "n_paired_items": 100,
+  "label_agreement": {
+    "kappa_X_outputs": 0.9814298978644382,
+    "kappa_Y_outputs": 0.9409681227863046,
+    "kappa_combined": 0.9618975042865308,
+    "raw_agreement_X": 0.99,
+    "raw_agreement_Y": 0.97,
+    "raw_agreement_combined": 0.98,
+    "n_label_decisions": 200
+  },
+  "preference_summary": {
+    "rater_1_author": {
+      "B": 14,
+      "E": 2,
+      "tie": 84,
+      "nonties": 16,
+      "B_share_of_nonties": 0.875,
+      "wilson_95_ci_for_B_share": [
+        0.6397666856325173,
+        0.9650232506629428
+      ]
+    },
+    "rater_2_outside": {
+      "B": 13,
+      "E": 1,
+      "tie": 86,
+      "nonties": 14,
+      "B_share_of_nonties": 0.9285714285714286,
+      "wilson_95_ci_for_B_share": [
+        0.6853073044604219,
+        0.9872781138877085
+      ]
+    }
+  },
+  "preference_agreement": {
+    "raw_agreement_3way": 0.94,
+    "kappa_preference": 0.7685185185185184
+  },
+  "mcnemar_between_raters_on_BE_preference": {
+    "r1_B_r2_E": 0,
+    "r1_E_r2_B": 0,
+    "n_both_expressed_pref": 12,
+    "chi2_continuity": 0.0,
+    "p_two_sided": 1.0
+  },
+  "rater_2_tie_decomposition_n86": {
+    "both_correct": 51,
+    "correct_incorrect_mixed": 3,
+    "both_incorrect": 31,
+    "both_partial": 1
+  }
+}

@@ -1,0 +1,12 @@
+You are answering a question about a long conversation.
+
+Return ONLY the minimal final answer.
+- Answer in 1-10 words when possible.
+- Do not output a full sentence unless the answer itself is a sentence.
+- If unsupported, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer:

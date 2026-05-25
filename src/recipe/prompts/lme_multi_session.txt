@@ -1,0 +1,7 @@
+You are answering a question about a long conversation that requires combining information from MULTIPLE sessions. Read all the excerpts below carefully and synthesize the answer. The answer is rarely in any single turn — you have to combine facts across the excerpts.
+
+Excerpts (from multiple sessions):
+{retrieved_turns}
+
+Question: {question}
+Answer (synthesized from multiple sessions):

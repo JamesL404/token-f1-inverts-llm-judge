@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "system": "hipporag-faithful-repro",
+    "memory_layer": "hipporag (gpt-4o-mini OpenIE + text-embedding-3-small)",
+    "generator": "Qwen/Qwen2.5-14B-Instruct, FCS prompt (matches cell J)",
+    "n_questions": 8,
+    "top_k": 5,
+    "f1": 0.46349837901562035,
+    "avg_completion_chars": 11.125,
+    "total_wall_time_s": 216.39507699012756,
+    "by_label": {
+      "temporal": {
+        "n": 2,
+        "f1": 0.575
+      },
+      "single-session": {
+        "n": 2,
+        "f1": 0.12835249042145594
+      },
+      "multi-session": {
+        "n": 2,
+        "f1": 0.5256410256410257
+      },
+      "knowledge-update": {
+        "n": 2,
+        "f1": 0.625
+      }
+    }
+  },
+  "predictions": [
+    {
+      "question_id": "gpt4_6dc9b45b",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "How many months ago did I attend the Seattle International Film Festival?",
+      "gold_answer": "4 months ago",
+      "prediction": "24 months",
+      "n_passages_retrieved": 5,
+      "completion_chars": 9,
+      "f1": 0.4
+    },
+    {
+      "question_id": "gpt4_59149c78",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+      "gold_answer": "The Metropolitan Museum of Art.",
+      "prediction": "Museum of Modern Art",
+      "n_passages_retrieved": 5,
+      "completion_chars": 20,
+      "f1": 0.75
+    },
+    {
+      "question_id": "0862e8bf_abs",
+      "question_type": "single-session-user",
+      "gold_label": "single-session",
+      "question": "What is the name of my hamster?",
+      "gold_answer": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+      "prediction": "No hamster mentioned.",
+      "n_passages_retrieved": 5,
+      "completion_chars": 21,
+      "f1": 0.2222222222222222
+    },
+    {
+      "question_id": "1c549ce4",
+      "question_type": "multi-session",
+      "gold_label": "multi-session",
+      "question": "What is the total cost of the car cover and detailing spray I purchased?",
+      "gold_answer": "$140",
+      "prediction": "140",
+      "n_passages_retrieved": 5,
+      "completion_chars": 3,
+      "f1": 1.0
+    },
+    {
+      "question_id": "b01defab",
+      "question_type": "knowledge-update",
+      "gold_label": "knowledge-update",
+      "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+      "gold_answer": "Yes",
+      "prediction": "Yes",
+      "n_passages_retrieved": 5,
+      "completion_chars": 3,
+      "f1": 1.0
+    },
+    {
+      "question_id": "gpt4_194be4b3",
+      "question_type": "multi-session",
+      "gold_label": "multi-session",
+      "question": "How many musical instruments do I currently own?",
+      "gold_answer": "I currently own 4 musical instruments. I've had the Fender Stratocaster electric guitar for 5 years, the Yamaha FG800 acoustic guitar for 8 years, the 5-piece Pearl Export drum set for an unspecified amount of time, and the Korg B1 piano for 3 years.",
+      "prediction": "3",
+      "n_passages_retrieved": 5,
+      "completion_chars": 1,
+      "f1": 0.05128205128205127
+    },
+    {
+      "question_id": "75f70248",
+      "question_type": "single-session-preference",
+      "gold_label": "single-session",
+      "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+      "gold_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+      "prediction": "Possible allergies.",
+      "n_passages_retrieved": 5,
+      "completion_chars": 19,
+      "f1": 0.03448275862068965
+    },
+    {
+      "question_id": "2698e78f_abs",
+      "question_type": "knowledge-update",
+      "gold_label": "knowledge-update",
+      "question": "How often do I see Dr. Johnson?",
+      "gold_answer": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+      "prediction": "Not mentioned",
+      "n_passages_retrieved": 5,
+      "completion_chars": 13,
+      "f1": 0.25
+    }
+  ]
+}

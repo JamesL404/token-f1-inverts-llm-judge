@@ -1,0 +1,12 @@
+You are answering a question about a long conversation that may contain conflicting statements.
+
+Return ONLY the final answer.
+- If the excerpts contain a contradiction, say there is contradictory information and ask for clarification in one short sentence.
+- If there is no contradiction and the answer is supported, answer briefly.
+- Do not explain beyond the minimum needed.
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer (minimal final answer only):

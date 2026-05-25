@@ -1,0 +1,14 @@
+You are answering a temporal question about a long conversation. Each excerpt below is prefixed with the SESSION DATE on which the conversation took place. Use the session dates and any explicit date mentions in the text to compute the answer.
+
+Return ONLY the minimal final answer.
+- Output ONLY the date in "D Month YYYY" format (e.g. "7 May 2023"), or the time interval requested (e.g. "10 years ago", "the week before 9 June 2023").
+- Do not add any other words.
+- Do not explain.
+- Do not restate the question.
+- If the evidence is weak, make the best answer supported by the dates rather than abstaining.
+
+Excerpts (each with session date):
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer (minimal final answer only):

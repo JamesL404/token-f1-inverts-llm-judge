@@ -1,0 +1,3226 @@
+{
+  "model": "gpt-4o-mini",
+  "n_judged": 200,
+  "indices_seed": 42,
+  "cell_e_path": "experiments/crag-6-linking-baseline/results_6a_lme_flat.json",
+  "cell_j_path": "experiments/crag-7-ranking-shift/results_7J_lme_flat_tight_fcs.json",
+  "cell_e": {
+    "n_judged": 200,
+    "correct": 106,
+    "incorrect": 94,
+    "other": 0,
+    "judge_accuracy": 0.53,
+    "verdicts": [
+      {
+        "idx": 0,
+        "question": "What was the first issue I had with my new car after its first service?",
+        "gold": "GPS system not functioning correctly",
+        "pred": "GPS system issue",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 1,
+        "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+        "gold": "'Data Analysis using Python' webinar",
+        "pred": "Data Analysis using Python webinar",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 3,
+        "question": "Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?",
+        "gold": "Samsung Galaxy S22",
+        "pred": "Dell XPS 13",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 5,
+        "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+        "gold": "30 days. 31 days (including the last day) is also acceptable.",
+        "pred": "36 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 9,
+        "question": "How many days before the 'Rack Fest' did I participate in the 'Turbocharged Tuesdays' event?",
+        "gold": "4 days.",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 12,
+        "question": "How many days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event?",
+        "gold": "14 days. 8 days (including the last day) is also acceptable.",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 13,
+        "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+        "gold": "Training pads for Luna",
+        "pred": "training pads for Luna",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 15,
+        "question": "How many charity events did I participate in before the 'Run for the Cure' event?",
+        "gold": "4",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 16,
+        "question": "How long have I been working before I started my current job at NovaTech?",
+        "gold": "4 years and 9 months",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 22,
+        "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+        "gold": "7 days. 8 days (including the last day) is also acceptable.",
+        "pred": "7 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 23,
+        "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+        "gold": "'Game of Thrones'",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 24,
+        "question": "How long had I been a member of 'Book Lovers Unite' when I attended the meetup?",
+        "gold": "Two weeks",
+        "pred": "The excerpt does not provide information about how long you had been a member of 'Book Lovers Unite' before attending the meetup.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 28,
+        "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+        "gold": "The arrival of the new prime lens",
+        "pred": "road trip to the coast",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 32,
+        "question": "Which device did I set up first, the smart thermostat or the new router?",
+        "gold": "new router",
+        "pred": "smart thermostat",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 33,
+        "question": "Which health issue did I deal with first, the persistent cough or the skin tag removal?",
+        "gold": "Persistent cough",
+        "pred": "persistent cough",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 35,
+        "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+        "gold": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+        "pred": "three weeks after you got it",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 36,
+        "question": "How many days before my best friend's birthday party did I order her gift?",
+        "gold": "7 days. 8 days (including the last day) is also acceptable.",
+        "pred": "5 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 40,
+        "question": "How many weeks have I been accepted into the exchange program when I started attending the pre-departure orientation sessions?",
+        "gold": "one week",
+        "pred": "8 weeks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 44,
+        "question": "How many months before my anniversary did Rachel get engaged?",
+        "gold": "2",
+        "pred": "2 months",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 46,
+        "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+        "gold": "the woman selling jam at the farmer's market",
+        "pred": "tourist from Australia",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 47,
+        "question": "Which event happened first, the meeting with Rachel or the pride parade?",
+        "gold": "The meeting with Rachel",
+        "pred": "meeting with Rachel",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 49,
+        "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+        "gold": "volleyball league",
+        "pred": "charity 5K run",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 51,
+        "question": "Which project did I start first, the Ferrari model or the Japanese Zero fighter plane model?",
+        "gold": "Japanese Zero fighter plane model",
+        "pred": "Japanese Zero fighter plane model",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 52,
+        "question": "Who became a parent first, Rachel or Alex?",
+        "gold": "Alex",
+        "pred": "Rachel",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 54,
+        "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+        "gold": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+        "pred": "no information available",
+        "verdict": "CORRECT",
+        "f1_token": 0.1
+      },
+      {
+        "idx": 56,
+        "question": "When did I book the Airbnb in Sacramento?",
+        "gold": "The information provided is not enough. You only mentioned booking Airbnb in San Francisco.",
+        "pred": "There is no mention of booking an Airbnb in Sacramento in the given conversation. The user mentioned booking an Airbnb in Haight-Ashbury for a previous stay related to their best friend's wedding and ",
+        "verdict": "CORRECT",
+        "f1_token": 0.2128
+      },
+      {
+        "idx": 57,
+        "question": "How many days before I bought my iPad did I attend the Holiday Market?",
+        "gold": "The information provided is not enough. You mentioned getting the iPhone 13 Pro and attending the market, but you did not mention buying an iPad.",
+        "pred": "no information available",
+        "verdict": "CORRECT",
+        "f1_token": 0.087
+      },
+      {
+        "idx": 58,
+        "question": "Which project did I start first, the Ferrari model or the Porsche 991 Turbo S model?",
+        "gold": "The information provided is not enough. You did not mention starting the Porsche 991 Turbo S model.",
+        "pred": "Ferrari model",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1176
+      },
+      {
+        "idx": 63,
+        "question": "How many days did I spend on camping trips in the United States this year?",
+        "gold": "8 days.",
+        "pred": "8 days",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 70,
+        "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+        "gold": "3",
+        "pred": "1: fresh lime juice",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 71,
+        "question": "How many movie festivals that I attended?",
+        "gold": "I attended four movie festivals.",
+        "pred": "You attended at least one film festival, specifically AFI Fest in LA.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1176
+      },
+      {
+        "idx": 73,
+        "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+        "gold": "3",
+        "pred": "two tanks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 78,
+        "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+        "gold": "4",
+        "pred": "The user fixed a wobbly leg on their kitchen table and assembled an IKEA bookshelf. Therefore, the user dealt with two pieces of furniture.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 79,
+        "question": "How many times did I bake something in the past two weeks?",
+        "gold": "4",
+        "pred": "The user did not specify exactly how many times they baked in the past two weeks.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 80,
+        "question": "How many different museums or galleries did I visit in the month of February?",
+        "gold": "2",
+        "pred": "The excerpt does not specify the number of museums or galleries visited in February.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 81,
+        "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+        "gold": "4",
+        "pred": "At least two: Korean and Indian.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 82,
+        "question": "How many properties did I view before making an offer on the townhouse in the Brookside neighborhood?",
+        "gold": "I viewed four properties before making an offer on the townhouse in the Brookside neighborhood. The reasons I didn't make an offer on them were: the kitchen of the bungalow needed serious renovation, ",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 83,
+        "question": "How many different types of food delivery services have I used recently?",
+        "gold": "3",
+        "pred": "1",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 87,
+        "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+        "gold": "$270",
+        "pred": "over $300 per night",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 91,
+        "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+        "gold": "5 days. 6 days (including the last day) is also acceptable.",
+        "pred": "5 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 98,
+        "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+        "gold": "2",
+        "pred": "two projects: Data Mining project, Database Systems project",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 101,
+        "question": "How much money did I raise for charity in total?",
+        "gold": "$3,750",
+        "pred": "$3,000",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 107,
+        "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+        "gold": "3 days",
+        "pred": "4 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 108,
+        "question": "How many rare items do I have in total?",
+        "gold": "99",
+        "pred": "57 rare records",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 110,
+        "question": "How many magazine subscriptions do I currently have?",
+        "gold": "2",
+        "pred": "subscription to The New Yorker",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 111,
+        "question": "How many online courses have I completed in total?",
+        "gold": "5",
+        "pred": "You have completed two courses on Coursera and two on edX.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 112,
+        "question": "How many music albums or EPs have I purchased or downloaded?",
+        "gold": "3",
+        "pred": "one album \"Happier Than Ever\"",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 114,
+        "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+        "gold": "23",
+        "pred": "five short stories",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 116,
+        "question": "How many times did I bake egg tarts in the past two weeks?",
+        "gold": "The information provided is not enough. You did not mention baking egg tarts.",
+        "pred": "The excerpt does not contain information about baking egg tarts in the past two weeks. There is no specific fact provided regarding the frequency of baking egg tarts.",
+        "verdict": "CORRECT",
+        "f1_token": 0.3784
+      },
+      {
+        "idx": 117,
+        "question": "How many different museums or galleries did I visit in December?",
+        "gold": "0. You did not mention visitng any museum in December",
+        "pred": "The excerpt does not contain information about visits to museums or galleries in December. Therefore, no specific answer can be extracted based on the provided text.",
+        "verdict": "CORRECT",
+        "f1_token": 0.1765
+      },
+      {
+        "idx": 119,
+        "question": "How many days did it take for my iPad case to arrive after I bought it?",
+        "gold": "The information provided is not enough. You did not mention buying an iPad case.",
+        "pred": "no information available",
+        "verdict": "CORRECT",
+        "f1_token": 0.1333
+      },
+      {
+        "idx": 122,
+        "question": "What was my personal best time in the charity 5K run?",
+        "gold": "25 minutes and 50 seconds (or 25:50)",
+        "pred": "25:50",
+        "verdict": "CORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 125,
+        "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+        "gold": "$400,000",
+        "pred": "$350,000",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 126,
+        "question": "How often do I attend yoga classes to help with my anxiety?",
+        "gold": "Three times a week.",
+        "pred": "three times a week",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 128,
+        "question": "How many hours have I spent on my abstract ocean sculpture?",
+        "gold": "10-12 hours",
+        "pred": "10-12 hours",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 134,
+        "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+        "gold": "220",
+        "pred": "page 220",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 135,
+        "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+        "gold": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+        "pred": "4 engineers initially; now lead 5.",
+        "verdict": "CORRECT",
+        "f1_token": 0.3846
+      },
+      {
+        "idx": 136,
+        "question": "How many titles are currently on my to-watch list?",
+        "gold": "25",
+        "pred": "25",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 137,
+        "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+        "gold": "120",
+        "pred": "300 stars within a 12-month period.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 138,
+        "question": "How long have I been using my Fitbit Charge 3?",
+        "gold": "9 months",
+        "pred": "9 months",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 140,
+        "question": "What type of camera lens did I purchase most recently?",
+        "gold": "a 70-200mm zoom lens",
+        "pred": "14-24mm or 16-35mm",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 142,
+        "question": "How many MCU films did I watch in the last 3 months?",
+        "gold": "5",
+        "pred": "5",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 148,
+        "question": "How many episodes of the Science series have I completed on Crash Course?",
+        "gold": "50",
+        "pred": "you've completed 50 episodes of the Science series!",
+        "verdict": "CORRECT",
+        "f1_token": 0.25
+      },
+      {
+        "idx": 150,
+        "question": "How many new postcards have I added to my collection since I started collecting again?",
+        "gold": "25",
+        "pred": "25 new postcards",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 152,
+        "question": "How long have I been living in my current apartment in Harajuku?",
+        "gold": "3 months",
+        "pred": "3 months now",
+        "verdict": "CORRECT",
+        "f1_token": 0.8
+      },
+      {
+        "idx": 157,
+        "question": "How many Instagram followers do I currently have?",
+        "gold": "600",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 161,
+        "question": "Where did I get my guitar serviced?",
+        "gold": "The music shop on Main St.",
+        "pred": "music shop on Main St",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 165,
+        "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+        "gold": "10",
+        "pred": "I've tried making it at home 10 times now since my friend Emma showed me how to make it.",
+        "verdict": "CORRECT",
+        "f1_token": 0.1
+      },
+      {
+        "idx": 166,
+        "question": "What time do I usually go to the gym?",
+        "gold": "6:00 pm",
+        "pred": "7:00 pm on Mondays, Wednesdays, and Fridays",
+        "verdict": "INCORRECT",
+        "f1_token": 0.25
+      },
+      {
+        "idx": 172,
+        "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+        "gold": "15",
+        "pred": "15",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 174,
+        "question": "How much time do I dedicate to coding exercises each day?",
+        "gold": "about two hours",
+        "pred": "Two hours a day",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 176,
+        "question": "How many pre-1920 American coins do I have in my collection?",
+        "gold": "38",
+        "pred": "37 coins",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 181,
+        "question": "How many projects have I completed since starting painting classes?",
+        "gold": "5",
+        "pred": "4 projects",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 183,
+        "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+        "gold": "level 100",
+        "pred": "100",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 185,
+        "question": "What time do I wake up on Saturday mornings?",
+        "gold": "7:30 am",
+        "pred": "7:30 am",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 186,
+        "question": "How many women are on the team led by my former manager Rachel?",
+        "gold": "6",
+        "pred": "6 women out of 10 people.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 189,
+        "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+        "gold": "You increased the limit (from one cup to two cups)",
+        "pred": "increasing",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 191,
+        "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+        "gold": "Instant Pot",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 193,
+        "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+        "gold": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+        "pred": "no information available",
+        "verdict": "CORRECT",
+        "f1_token": 0.0952
+      },
+      {
+        "idx": 194,
+        "question": "How often do I see Dr. Johnson?",
+        "gold": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+        "pred": "You see Dr. Smith every week.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.3
+      },
+      {
+        "idx": 195,
+        "question": "How long have I been living in my current apartment in Shinjuku?",
+        "gold": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+        "pred": "no information available",
+        "verdict": "CORRECT",
+        "f1_token": 0.125
+      },
+      {
+        "idx": 197,
+        "question": "How often do I play table tennis with my friends at the local park?",
+        "gold": "The information provided is not enough. You mentioned playing tennis but not table tennis.",
+        "pred": "The excerpt does not mention playing table tennis; it mentions playing tennis every other week.",
+        "verdict": "CORRECT",
+        "f1_token": 0.3704
+      },
+      {
+        "idx": 202,
+        "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+        "gold": "The user would prefer suggestions related to recent research papers, articles, or conferences that focus on artificial intelligence in healthcare, particularly those that involve deep learning for med",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 204,
+        "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+        "gold": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on lang",
+        "pred": "The assistant did not provide information about cultural events happening around the user this weekend.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1695
+      },
+      {
+        "idx": 205,
+        "question": "Can you recommend a show or movie for me to watch tonight?",
+        "gold": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms",
+        "pred": "John Mulaney's 'Kid Gorgeous'",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 214,
+        "question": "I've been feeling like my chocolate chip cookies need something extra. Any advice?",
+        "gold": "The user would prefer responses that build upon their previous experimentation with turbinado sugar, suggesting ingredients or techniques that complement its richer flavor. They might not prefer gener",
+        "pred": "Try adding muscovado sugar in place of some granulated sugar.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1154
+      },
+      {
+        "idx": 216,
+        "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+        "gold": "The user would prefer responses that take into account their existing plans to replace the bedroom dresser and their interest in mid-century modern style, suggesting furniture layouts that accommodate",
+        "pred": "Ensure your mid-century modern dresser has a lower profile to create a sense of calm and spaciousness.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1515
+      },
+      {
+        "idx": 219,
+        "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+        "gold": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect o",
+        "pred": "It could be due to dust and cat dander in your living room.",
+        "verdict": "CORRECT",
+        "f1_token": 0.1471
+      },
+      {
+        "idx": 222,
+        "question": "I am planning another theme park weekend; do you have any suggestions?",
+        "gold": "The user would prefer theme park suggestions that cater to their interest in both thrill rides and special events, utilizing their previous experiences at Disneyland, Knott's Berry Farm, Six Flags Mag",
+        "pred": "Halloween Horror Nights at Universal Studios Hollywood offers a Behind-the-Scenes Tour.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0842
+      },
+      {
+        "idx": 229,
+        "question": "I\u2019m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+        "gold": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might no",
+        "pred": "Make sure to check the train schedules and plan your journey accordingly.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0385
+      },
+      {
+        "idx": 232,
+        "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+        "gold": "The Plesiosaur had a blue scaly body.",
+        "pred": "The Plesiosaur has a blue scaly body.",
+        "verdict": "CORRECT",
+        "f1_token": 0.8
+      },
+      {
+        "idx": 234,
+        "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+        "gold": "Roscioli",
+        "pred": "Roscioli",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 235,
+        "question": "I remember you told me about the refining processes at CITGO's three refineries earlier. Can you remind me what kind of processes are used at the Lake Charles Refinery?",
+        "gold": "Atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrotreating.",
+        "pred": "Atmospheric distillation, Fluid catalytic cracking, Alkylation, Hydrotreating.",
+        "verdict": "CORRECT",
+        "f1_token": 0.9333
+      },
+      {
+        "idx": 236,
+        "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+        "gold": "International Budget Hostel",
+        "pred": "International Budget Hostel",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 239,
+        "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that",
+        "gold": "Doc Martin",
+        "pred": "doc martin",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 250,
+        "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+        "gold": "Mod Podge or another sealant",
+        "pred": "Mod Podge or another sealant",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 252,
+        "question": "I was going through our previous chat and I wanted to clarify something about the prayer of beginners in Tanqueray's Spiritual Life treatise. Can you remind me which chapter of the second part discuss",
+        "gold": "Chapter 4 of Book 1, titled 'Vocal Prayer and Meditation'.",
+        "pred": "Chapter 4 of Book 1 discusses vocal prayer and meditation.",
+        "verdict": "CORRECT",
+        "f1_token": 0.8889
+      },
+      {
+        "idx": 255,
+        "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was",
+        "gold": "Absinthe",
+        "pred": "Absinthe: Absinthe is a strong and herbal liqueur.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 256,
+        "question": "I wanted to follow up on our previous conversation about mindfulness techniques. You mentioned some great resources for guided imagery exercises, can you remind me of the website that had free exercis",
+        "gold": "Mindful.org.",
+        "pred": "Mindful.org",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 258,
+        "question": "I was going through our previous conversation about atmospheric correction methods, and I wanted to confirm - you mentioned that 6S, MAJA, and Sen2Cor are all algorithms for atmospheric correction of ",
+        "gold": "The 6S algorithm is implemented in the SIAC_GEE tool.",
+        "pred": "6S algorithm is implemented in the SIAC_GEE tool.",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 259,
+        "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+        "gold": "2-3 eggs",
+        "pred": "2-3 eggs",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 260,
+        "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+        "gold": "By Chloe",
+        "pred": "By Chloe",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 270,
+        "question": "I'm looking back at our previous conversation about the Bajimaya v Reward Homes Pty Ltd case. Can you remind me what year the construction of the house began?",
+        "gold": "2014.",
+        "pred": "The construction of the house began in 2014.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 271,
+        "question": "I wanted to follow up on our previous conversation about YouTube videos for workplace posture. Can you remind me of the Mayo Clinic video you recommended?",
+        "gold": "The video is 'How to Sit Properly at a Desk to Avoid Back Pain' and the link is https://www.youtube.com/watch?v=UfOvNlX9Hh0.",
+        "pred": "\"How to Sit Properly at a Desk to Avoid Back Pain\" by the Mayo Clinic",
+        "verdict": "CORRECT",
+        "f1_token": 0.7143
+      },
+      {
+        "idx": 273,
+        "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+        "gold": "The Chiefs played the Jaguars 12 times at Arrowhead Stadium.",
+        "pred": "12 games were played at Arrowhead Stadium.",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 274,
+        "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+        "gold": "Fissionator.",
+        "pred": "Radialisk",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 275,
+        "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual ",
+        "gold": "@jessica_poole_jewellery",
+        "pred": "@jessica_poole_jewellery",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 276,
+        "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+        "gold": "The designation on your jumpsuit was 'LIV'.",
+        "pred": "\"LIV\"designation on my jumpsuit",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 279,
+        "question": "I wanted to follow up on our previous conversation about fracking in the Marcellus Shale region. You mentioned that some states require fracking companies to monitor groundwater quality at nearby well",
+        "gold": "Pennsylvania",
+        "pred": "Pennsylvania",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 282,
+        "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great j",
+        "gold": "Patagonia",
+        "pred": "Patagonia is known for its commitment to sustainability and environmental responsibility.",
+        "verdict": "CORRECT",
+        "f1_token": 0.1818
+      },
+      {
+        "idx": 283,
+        "question": "I was going through our previous conversation about high-end fashion brands, and I was wondering if you could remind me of the brand that uses wild rubber sourced from the Amazon rainforest?",
+        "gold": "Veja",
+        "pred": "Veja uses wild rubber sourced from the Amazon rainforest.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2222
+      },
+      {
+        "idx": 285,
+        "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+        "gold": "Grilled Snapper with Mango Salsa",
+        "pred": "Grilled Snapper with Mango Salsa",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 287,
+        "question": "How long is my daily commute to work?",
+        "gold": "45 minutes each way",
+        "pred": "45 minutes each way.",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 290,
+        "question": "What is the name of the playlist I created on Spotify?",
+        "gold": "Summer Vibes",
+        "pred": "Summer Vibes",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 295,
+        "question": "Where did I buy my new tennis racket from?",
+        "gold": "the sports store downtown",
+        "pred": "a sports store downtown",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 298,
+        "question": "How many playlists do I have on Spotify?",
+        "gold": "20",
+        "pred": "20 playlists on Spotify",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 299,
+        "question": "Where did I attend for my study abroad program?",
+        "gold": "University of Melbourne in Australia",
+        "pred": "University of Melbourne",
+        "verdict": "CORRECT",
+        "f1_token": 0.75
+      },
+      {
+        "idx": 301,
+        "question": "How long did it take me to assemble the IKEA bookshelf?",
+        "gold": "4 hours",
+        "pred": "4 hours",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 302,
+        "question": "What did I buy for my sister's birthday gift?",
+        "gold": "a yellow dress",
+        "pred": "Yellow dress and pair of earrings matching the dress.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.4444
+      },
+      {
+        "idx": 305,
+        "question": "What was my previous stance on spirituality?",
+        "gold": "A staunch atheist",
+        "pred": "You used to be a staunch atheist.",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 306,
+        "question": "What brand are my favorite running shoes?",
+        "gold": "Nike",
+        "pred": "Nike",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 308,
+        "question": "How many bikes do I own?",
+        "gold": "three",
+        "pred": "three of them - a road bike, a mountain bike, and a commuter bike",
+        "verdict": "CORRECT",
+        "f1_token": 0.2
+      },
+      {
+        "idx": 309,
+        "question": "What breed is my dog?",
+        "gold": "Golden Retriever",
+        "pred": "The excerpt does not specify the breed of the dog.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 311,
+        "question": "How many amateur comedians did I watch perform at the open mic night?",
+        "gold": "10",
+        "pred": "10 amateur comedians",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 316,
+        "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+        "gold": "The painting is worth triple what I paid for it.",
+        "pred": "It's worth triple what you paid for it.",
+        "verdict": "CORRECT",
+        "f1_token": 0.7059
+      },
+      {
+        "idx": 319,
+        "question": "How long did it take to move to the new apartment?",
+        "gold": "5 hours",
+        "pred": "It took you and your friends around 5 hours to move everything.",
+        "verdict": "CORRECT",
+        "f1_token": 0.3077
+      },
+      {
+        "idx": 321,
+        "question": "What type of rice is my favorite?",
+        "gold": "Japanese short-grain rice",
+        "pred": "Japanese short-grain rice",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 325,
+        "question": "How many copies of my favorite artist's debut album were released worldwide?",
+        "gold": "500",
+        "pred": "only 500 copies worldwide",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 327,
+        "question": "Where did I go on a week-long trip with my family?",
+        "gold": "Hawaii",
+        "pred": "Hawaii",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 328,
+        "question": "What did I bake for my niece's birthday party?",
+        "gold": "a lemon blueberry cake",
+        "pred": "lemon blueberry cake",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 329,
+        "question": "What is the name of the music streaming service have I been using lately?",
+        "gold": "Spotify",
+        "pred": "Spotify",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 330,
+        "question": "How long did I wait for the decision on my asylum application?",
+        "gold": "over a year",
+        "pred": "Over a year",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 331,
+        "question": "What type of action figure did I buy from a thrift store?",
+        "gold": "a blue Snaggletooth",
+        "pred": "rare blue Snaggletooth action figure",
+        "verdict": "CORRECT",
+        "f1_token": 0.5714
+      },
+      {
+        "idx": 332,
+        "question": "How long was I in Japan for?",
+        "gold": "two weeks",
+        "pred": "Two weeks",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 335,
+        "question": "What type of bulb did I replace in my bedside lamp?",
+        "gold": "Philips LED bulb",
+        "pred": "Philips LED bulb",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 338,
+        "question": "How many skeins of worsted weight yarn did I find in my stash?",
+        "gold": "17",
+        "pred": "17 skeins",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 343,
+        "question": "Where does my sister Emily live?",
+        "gold": "Denver",
+        "pred": "Denver",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 346,
+        "question": "What brand of shampoo do I currently use?",
+        "gold": "Trader Joe's",
+        "pred": "lavender scented shampoo from Trader Joe's",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 347,
+        "question": "What health issue did I initially think was just a cold?",
+        "gold": "bronchitis",
+        "pred": "bronchitis",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 349,
+        "question": "What game did I finally beat last weekend?",
+        "gold": "Dark Souls 3 DLC",
+        "pred": "Dark Souls 3 DLC",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 350,
+        "question": "What is the name of my hamster?",
+        "gold": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+        "pred": "The question cannot be answered based on the provided conversation excerpt as there was no mention of a hamster.",
+        "verdict": "CORRECT",
+        "f1_token": 0.129
+      },
+      {
+        "idx": 352,
+        "question": "What did I bake for my uncle's birthday party?",
+        "gold": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+        "pred": "You baked a lemon blueberry cake for your niece's birthday party.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.4286
+      },
+      {
+        "idx": 355,
+        "question": "What did my dad gave me as a birthday gift?",
+        "gold": "You did not mention this information. You mentioned receiving a birthday gift from your sister, but not your dad.",
+        "pred": "The user did not receive a stand mixer as a birthday gift from their dad; they received it from their sister. There is no mention of a gift from their dad in the provided excerpt.",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 357,
+        "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a cust",
+        "gold": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+        "pred": "2023/02/05, 2023/02/10, 2023/02/20",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 359,
+        "question": "How many months have passed since I participated in two charity events in a row, on consecutive days?",
+        "gold": "2",
+        "pred": "The excerpt does not contain the answer to the question \"How many months have passed since I participated in two charity events in a row, on consecutive days?\" The given text does not mention any spec",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 360,
+        "question": "How many days passed between the day I started playing along to my favorite songs on my old keyboard and the day I discovered a bluegrass band?",
+        "gold": "6 days. 7 days (including the last day) is also acceptable.",
+        "pred": "6 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 366,
+        "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+        "gold": "24 days. 25 days (including the last day) is also acceptable.",
+        "pred": "24 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 367,
+        "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+        "gold": "3 weeks ago",
+        "pred": "The user just downloaded Ibotta, so it's not specified in weeks but recently. However, based on the given format and constraints, the exact phrase or number indicating weeks ago isn't present in the c",
+        "verdict": "INCORRECT",
+        "f1_token": 0.069
+      },
+      {
+        "idx": 373,
+        "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amaz",
+        "gold": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+        "pred": "\"I used a Buy One Get One Free coupon on Luvs diapers at Walmart\", \"I redeemed $12 cashback for a $10 Amazon gift card from Ibotta\". The order of signing up for the rewards program at ShopRite is not ",
+        "verdict": "INCORRECT",
+        "f1_token": 0.8108
+      },
+      {
+        "idx": 376,
+        "question": "How many weeks passed between the day I bought my new tennis racket and the day I received it?",
+        "gold": "1 week",
+        "pred": "1 week",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 377,
+        "question": "How many days ago did I meet Emma?",
+        "gold": "9 days ago. 10 days (including the last day) is also acceptable.",
+        "pred": "0 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1538
+      },
+      {
+        "idx": 379,
+        "question": "How many days passed between the day I attended the gardening workshop and the day I planted the tomato saplings?",
+        "gold": "6 days. 7 days (including the last day) is also acceptable.",
+        "pred": "6 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 380,
+        "question": "How many days passed between the day I received feedback about my car's suspension and the day I tested my new suspension setup?",
+        "gold": "38 days. 39 days (including the last day) is also acceptable.",
+        "pred": "36 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 386,
+        "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+        "gold": "15",
+        "pred": "Two weeks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 388,
+        "question": "How many days passed between the day I finished reading 'The Nightingale' and the day I started reading 'The Hitchhiker's Guide to the Galaxy'?",
+        "gold": "1 day. 2 days (including the last day) is also acceptable.",
+        "pred": "1 day",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 390,
+        "question": "How many weeks have I been taking sculpting classes when I invested in my own set of sculpting tools?",
+        "gold": "3",
+        "pred": "6 weeks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 395,
+        "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+        "gold": "4",
+        "pred": "The user mentioned attending a bird watching workshop a day before the conversation, so it would be approximately 1 week ago if the conversation is happening right after the workshop. However, since t",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 399,
+        "question": "How many days ago did I watch the Super Bowl?",
+        "gold": "17 days ago. 18 days (including the last day) is also acceptable.",
+        "pred": "0 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1538
+      },
+      {
+        "idx": 404,
+        "question": "How many days ago did I participate in the 5K charity run?",
+        "gold": "7 days ago. 8 days (including the last day) is also acceptable.",
+        "pred": "0 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1538
+      },
+      {
+        "idx": 405,
+        "question": "Which event happened first, my participation in the #PlankChallenge or my post about vegan chili recipe?",
+        "gold": "You posted a recipe for vegan chili on Instagram using the hashtag #FoodieAdventures first.",
+        "pred": "2023/03/10 (Fri) 04:15",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 409,
+        "question": "Which book did I finish a week ago?",
+        "gold": "'The Nightingale' by Kristin Hannah",
+        "pred": "The question cannot be answered based on the provided conversation excerpt since there is no mention of finishing a book a week ago. The user only mentions having just finished \"The Nightingale\" by Kr",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2424
+      },
+      {
+        "idx": 411,
+        "question": "I received a piece of jewelry last Saturday from whom?",
+        "gold": "my aunt",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 412,
+        "question": "What charity event did I participate in a month ago?",
+        "gold": "the 'Walk for Hunger' charity event",
+        "pred": "\"Walk for Hunger\"",
+        "verdict": "CORRECT",
+        "f1_token": 0.75
+      },
+      {
+        "idx": 413,
+        "question": "Who did I go with to the music event last Saturday?",
+        "gold": "my parents",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 414,
+        "question": "What gardening-related activity did I do two weeks ago?",
+        "gold": "planting 12 new tomato saplings",
+        "pred": "attended a gardening workshop",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 424,
+        "question": "I mentioned visiting a museum two months ago. Did I visit with a friend or not?",
+        "gold": "No, you did not visit with a friend.",
+        "pred": "you visited with a friend who's a chemistry professor.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.4286
+      },
+      {
+        "idx": 427,
+        "question": "Where did I attend the religious activity last week?",
+        "gold": "the Episcopal Church",
+        "pred": "Episcopal Church",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 429,
+        "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+        "gold": "8 miles",
+        "pred": "The total distance of the hikes you did on two consecutive weekends is 8 miles.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2667
+      },
+      {
+        "idx": 430,
+        "question": "How many pages do I have left to read in 'The Nightingale'?",
+        "gold": "190",
+        "pred": "370 pages",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 431,
+        "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+        "gold": "$6",
+        "pred": "$6 more expensive",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 433,
+        "question": "How many antique items did I inherit or acquire from my family members?",
+        "gold": "5",
+        "pred": "2 antique items",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 436,
+        "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+        "gold": "$750",
+        "pred": "The difference is $750.",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 438,
+        "question": "When did I submit my research paper on sentiment analysis?",
+        "gold": "February 1st",
+        "pred": "before that, I even worked on a research paper on sentiment analysis, which I submitted to ACL.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 441,
+        "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+        "gold": "27",
+        "pred": "You've finished around 15 episodes so far from \"How I Built This\". No information was provided about episodes listened to from \"My Favorite Murder\".",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 444,
+        "question": "How much older am I than the average age of employees in my department?",
+        "gold": "2.5 years",
+        "pred": "2.5 years older",
+        "verdict": "CORRECT",
+        "f1_token": 0.8
+      },
+      {
+        "idx": 445,
+        "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+        "gold": "12,000",
+        "pred": "2,000 people reached by your Facebook ad campaign. Influencer collaboration details not provided for total reach.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 447,
+        "question": "How much did I save on the designer handbag at TK Maxx?",
+        "gold": "$300",
+        "pred": "The user saved on a designer handbag at TK Maxx for $200, but the original price or savings amount isn't specified.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 454,
+        "question": "What is the total number of days I spent in Japan and Chicago?",
+        "gold": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+        "pred": "10 days in Japan, unspecified days in Chicago.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1739
+      },
+      {
+        "idx": 455,
+        "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+        "gold": "$5,150",
+        "pred": "$150 for the antique vanity.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 456,
+        "question": "What percentage of the countryside property's price is the cost of the renovations I plan to do on my current house?",
+        "gold": "10%",
+        "pred": "no information available",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 458,
+        "question": "How much more did I have to pay for the trip after the initial quote?",
+        "gold": "$300",
+        "pred": "300",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 459,
+        "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+        "gold": "8 meals",
+        "pred": "The user mentioned getting three meals from their chicken fajitas. There was no mention of the number of meals from lentil soup. Therefore, based on the information provided, the total number of lunch",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0541
+      },
+      {
+        "idx": 463,
+        "question": "How much more was the pre-approval amount than the final sale price of the house?",
+        "gold": "$25,000",
+        "pred": "25,000",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 464,
+        "question": "What is the total cost of the car cover and detailing spray I purchased?",
+        "gold": "$140",
+        "pred": "$120 for the car cover. No specific cost mentioned for the detailing spray.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 467,
+        "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+        "gold": "2",
+        "pred": "2 mpg",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 470,
+        "question": "How many years will I be when my friend Rachel gets married?",
+        "gold": "33",
+        "pred": "The user did not specify their exact age.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 473,
+        "question": "How much did I spend on gifts for my sister?",
+        "gold": "$300",
+        "pred": "$200",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 474,
+        "question": "What time did I reach the clinic on Monday?",
+        "gold": "9:00 AM",
+        "pred": "The exact time you reached the clinic on Monday is not specified in the conversation. However, since you left home at 7 AM and mentioned still trying to get your rhythm back, implying a lengthy proces",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0323
+      },
+      {
+        "idx": 478,
+        "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+        "gold": "1,998",
+        "pred": "The YouTube tutorial has 542 views, and the TikTok video has 1,456 views.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 480,
+        "question": "How many years older am I than when I graduated from college?",
+        "gold": "7",
+        "pred": "The given excerpt does not contain any information about the age difference between when the user graduated from college and their current age. Therefore, no answer can be extracted based on the provi",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 482,
+        "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+        "gold": "33",
+        "pred": "12 comments on Facebook Live; no information available on YouTube video.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 483,
+        "question": "How many days a week do I attend fitness classes?",
+        "gold": "4 days.",
+        "pred": "3",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 486,
+        "question": "What is the average GPA of my undergraduate and graduate studies?",
+        "gold": "3.83",
+        "pred": "The average GPA of your undergraduate and graduate studies is 3.86 and 3.8 respectively.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 487,
+        "question": "How many minutes did I exceed my target time by in the marathon?",
+        "gold": "12",
+        "pred": "12 minutes",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 490,
+        "question": "How much have I made from selling eggs this month?",
+        "gold": "$120",
+        "pred": "The user did not provide specific information on how much they made from selling eggs this month. Therefore, based on the given excerpt, there is no direct answer to the question \"How much have I made",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 492,
+        "question": "How much earlier do I wake up on Fridays compared to other weekdays?",
+        "gold": "30 minutes",
+        "pred": "On Fridays, you wake up at 6:00 AM.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 494,
+        "question": "How many pages do I have left to read in 'Sapiens'?",
+        "gold": "The information provided is not enough. You did not mention how many paged do you have left to read in 'Sapiens'.",
+        "pred": "The excerpt does not provide the exact number of pages left in \"Sapiens\". It only mentions the user is finding it slow going and provides an alternative reading suggestion. No specific page count for ",
+        "verdict": "CORRECT",
+        "f1_token": 0.1923
+      },
+      {
+        "idx": 496,
+        "question": "What is the total cost of my recently purchased headphones and the iPad?",
+        "gold": "The information provided is not enough. You mentioned purchasing a headphone, but you did not mention the iPad.",
+        "pred": "no information available",
+        "verdict": "CORRECT",
+        "f1_token": 0.1111
+      },
+      {
+        "idx": 498,
+        "question": "How old will Rachel be when I get married?",
+        "gold": "The information provided is not enough. You did not mention how old Rachel is right now, nor when will you get married.",
+        "pred": "The user did not specify Rachel's age or when they were born, so her age at the time of the wedding cannot be determined from the given information.",
+        "verdict": "CORRECT",
+        "f1_token": 0.1778
+      },
+      {
+        "idx": 499,
+        "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+        "gold": "The information provided is not enough. You did not mention how much will the bus take.",
+        "pred": "around $50-$60",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      }
+    ]
+  },
+  "cell_j": {
+    "n_judged": 200,
+    "correct": 107,
+    "incorrect": 93,
+    "other": 0,
+    "judge_accuracy": 0.535,
+    "verdicts": [
+      {
+        "idx": 0,
+        "question": "What was the first issue I had with my new car after its first service?",
+        "gold": "GPS system not functioning correctly",
+        "pred": "GPS system issue on 3/22.",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 1,
+        "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+        "gold": "'Data Analysis using Python' webinar",
+        "pred": "'Data Analysis using Python' webinar",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 3,
+        "question": "Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?",
+        "gold": "Samsung Galaxy S22",
+        "pred": "You got the Samsung Galaxy S22 first.",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 5,
+        "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+        "gold": "30 days. 31 days (including the last day) is also acceptable.",
+        "pred": "27 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 9,
+        "question": "How many days before the 'Rack Fest' did I participate in the 'Turbocharged Tuesdays' event?",
+        "gold": "4 days.",
+        "pred": "No such event as 'Rack Fest' mentioned.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 12,
+        "question": "How many days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event?",
+        "gold": "14 days. 8 days (including the last day) is also acceptable.",
+        "pred": "Not specified in provided excerpts.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 13,
+        "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+        "gold": "Training pads for Luna",
+        "pred": "Training pads for Luna.",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 15,
+        "question": "How many charity events did I participate in before the 'Run for the Cure' event?",
+        "gold": "4",
+        "pred": "One, the \"Food for Thought\" charity gala.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 16,
+        "question": "How long have I been working before I started my current job at NovaTech?",
+        "gold": "4 years and 9 months",
+        "pred": "You haven't specified time before joining NovaTech.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 22,
+        "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+        "gold": "7 days. 8 days (including the last day) is also acceptable.",
+        "pred": "7 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 23,
+        "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+        "gold": "'Game of Thrones'",
+        "pred": "None of the excerpts mention starting either 'The Crown' or 'Game of Thrones'.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.4286
+      },
+      {
+        "idx": 24,
+        "question": "How long had I been a member of 'Book Lovers Unite' when I attended the meetup?",
+        "gold": "Two weeks",
+        "pred": "Not specified",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 28,
+        "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+        "gold": "The arrival of the new prime lens",
+        "pred": "The road trip to the coast happened first.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 32,
+        "question": "Which device did I set up first, the smart thermostat or the new router?",
+        "gold": "new router",
+        "pred": "You set up the smart thermostat first on 2/10.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 33,
+        "question": "Which health issue did I deal with first, the persistent cough or the skin tag removal?",
+        "gold": "Persistent cough",
+        "pred": "Persistent cough came first.",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 35,
+        "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+        "gold": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+        "pred": "one month",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1333
+      },
+      {
+        "idx": 36,
+        "question": "How many days before my best friend's birthday party did I order her gift?",
+        "gold": "7 days. 8 days (including the last day) is also acceptable.",
+        "pred": "5 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 40,
+        "question": "How many weeks have I been accepted into the exchange program when I started attending the pre-departure orientation sessions?",
+        "gold": "one week",
+        "pred": "5 weeks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 44,
+        "question": "How many months before my anniversary did Rachel get engaged?",
+        "gold": "2",
+        "pred": "2 months",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 46,
+        "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+        "gold": "the woman selling jam at the farmer's market",
+        "pred": "The tourist from Australia.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 47,
+        "question": "Which event happened first, the meeting with Rachel or the pride parade?",
+        "gold": "The meeting with Rachel",
+        "pred": "The meeting with Rachel happened first.",
+        "verdict": "CORRECT",
+        "f1_token": 0.75
+      },
+      {
+        "idx": 49,
+        "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+        "gold": "volleyball league",
+        "pred": "You participated in the charity 5K run first.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 51,
+        "question": "Which project did I start first, the Ferrari model or the Japanese Zero fighter plane model?",
+        "gold": "Japanese Zero fighter plane model",
+        "pred": "You started the Japanese Zero fighter plane model first.",
+        "verdict": "CORRECT",
+        "f1_token": 0.7692
+      },
+      {
+        "idx": 52,
+        "question": "Who became a parent first, Rachel or Alex?",
+        "gold": "Alex",
+        "pred": "Rachel became a parent first.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 54,
+        "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+        "gold": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+        "pred": "Fixing the fence.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2105
+      },
+      {
+        "idx": 56,
+        "question": "When did I book the Airbnb in Sacramento?",
+        "gold": "The information provided is not enough. You only mentioned booking Airbnb in San Francisco.",
+        "pred": "No mention",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 57,
+        "question": "How many days before I bought my iPad did I attend the Holiday Market?",
+        "gold": "The information provided is not enough. You mentioned getting the iPhone 13 Pro and attending the market, but you did not mention buying an iPad.",
+        "pred": "No mention of buying an iPad. Information missing.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2963
+      },
+      {
+        "idx": 58,
+        "question": "Which project did I start first, the Ferrari model or the Porsche 991 Turbo S model?",
+        "gold": "The information provided is not enough. You did not mention starting the Porsche 991 Turbo S model.",
+        "pred": "You started the Ferrari model first.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2
+      },
+      {
+        "idx": 63,
+        "question": "How many days did I spend on camping trips in the United States this year?",
+        "gold": "8 days.",
+        "pred": "8 days",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 70,
+        "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+        "gold": "3",
+        "pred": "2",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 71,
+        "question": "How many movie festivals that I attended?",
+        "gold": "I attended four movie festivals.",
+        "pred": "One",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 73,
+        "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+        "gold": "3",
+        "pred": "Three",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 78,
+        "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+        "gold": "4",
+        "pred": "2",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 79,
+        "question": "How many times did I bake something in the past two weeks?",
+        "gold": "4",
+        "pred": "3",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 80,
+        "question": "How many different museums or galleries did I visit in the month of February?",
+        "gold": "2",
+        "pred": "3",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 81,
+        "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+        "gold": "4",
+        "pred": "3",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 82,
+        "question": "How many properties did I view before making an offer on the townhouse in the Brookside neighborhood?",
+        "gold": "I viewed four properties before making an offer on the townhouse in the Brookside neighborhood. The reasons I didn't make an offer on them were: the kitchen of the bungalow needed serious renovation, ",
+        "pred": "Information not provided in excerpts.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0339
+      },
+      {
+        "idx": 83,
+        "question": "How many different types of food delivery services have I used recently?",
+        "gold": "3",
+        "pred": "2",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 87,
+        "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+        "gold": "$270",
+        "pred": "$270+",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 91,
+        "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+        "gold": "5 days. 6 days (including the last day) is also acceptable.",
+        "pred": "5 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 98,
+        "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+        "gold": "2",
+        "pred": "2",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 101,
+        "question": "How much money did I raise for charity in total?",
+        "gold": "$3,750",
+        "pred": "3000",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 107,
+        "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+        "gold": "3 days",
+        "pred": "4 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 108,
+        "question": "How many rare items do I have in total?",
+        "gold": "99",
+        "pred": "57",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 110,
+        "question": "How many magazine subscriptions do I currently have?",
+        "gold": "2",
+        "pred": "2",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 111,
+        "question": "How many online courses have I completed in total?",
+        "gold": "5",
+        "pred": "3 courses",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 112,
+        "question": "How many music albums or EPs have I purchased or downloaded?",
+        "gold": "3",
+        "pred": "1",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 114,
+        "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+        "gold": "23",
+        "pred": "6",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 116,
+        "question": "How many times did I bake egg tarts in the past two weeks?",
+        "gold": "The information provided is not enough. You did not mention baking egg tarts.",
+        "pred": "Not mentioned",
+        "verdict": "CORRECT",
+        "f1_token": 0.1429
+      },
+      {
+        "idx": 117,
+        "question": "How many different museums or galleries did I visit in December?",
+        "gold": "0. You did not mention visitng any museum in December",
+        "pred": "None",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 119,
+        "question": "How many days did it take for my iPad case to arrive after I bought it?",
+        "gold": "The information provided is not enough. You did not mention buying an iPad case.",
+        "pred": "No information provided about iPad case delivery time.",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 122,
+        "question": "What was my personal best time in the charity 5K run?",
+        "gold": "25 minutes and 50 seconds (or 25:50)",
+        "pred": "25:50",
+        "verdict": "CORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 125,
+        "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+        "gold": "$400,000",
+        "pred": "$350,000",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 126,
+        "question": "How often do I attend yoga classes to help with my anxiety?",
+        "gold": "Three times a week.",
+        "pred": "three times a week",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 128,
+        "question": "How many hours have I spent on my abstract ocean sculpture?",
+        "gold": "10-12 hours",
+        "pred": "10-12 hours",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 134,
+        "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+        "gold": "220",
+        "pred": "220",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 135,
+        "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+        "gold": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+        "pred": "4 engineers",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1818
+      },
+      {
+        "idx": 136,
+        "question": "How many titles are currently on my to-watch list?",
+        "gold": "25",
+        "pred": "25",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 137,
+        "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+        "gold": "120",
+        "pred": "300 stars",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 138,
+        "question": "How long have I been using my Fitbit Charge 3?",
+        "gold": "9 months",
+        "pred": "9 months",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 140,
+        "question": "What type of camera lens did I purchase most recently?",
+        "gold": "a 70-200mm zoom lens",
+        "pred": "70-200mm",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 142,
+        "question": "How many MCU films did I watch in the last 3 months?",
+        "gold": "5",
+        "pred": "12 films in total, including 5 MCU films.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2222
+      },
+      {
+        "idx": 148,
+        "question": "How many episodes of the Science series have I completed on Crash Course?",
+        "gold": "50",
+        "pred": "50",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 150,
+        "question": "How many new postcards have I added to my collection since I started collecting again?",
+        "gold": "25",
+        "pred": "42",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 152,
+        "question": "How long have I been living in my current apartment in Harajuku?",
+        "gold": "3 months",
+        "pred": "3 months",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 157,
+        "question": "How many Instagram followers do I currently have?",
+        "gold": "600",
+        "pred": "Not provided.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 161,
+        "question": "Where did I get my guitar serviced?",
+        "gold": "The music shop on Main St.",
+        "pred": "Main St",
+        "verdict": "CORRECT",
+        "f1_token": 0.5714
+      },
+      {
+        "idx": 165,
+        "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+        "gold": "10",
+        "pred": "10",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 166,
+        "question": "What time do I usually go to the gym?",
+        "gold": "6:00 pm",
+        "pred": "7:00 pm",
+        "verdict": "INCORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 172,
+        "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+        "gold": "15",
+        "pred": "15 autographed baseballs",
+        "verdict": "CORRECT",
+        "f1_token": 0.5
+      },
+      {
+        "idx": 174,
+        "question": "How much time do I dedicate to coding exercises each day?",
+        "gold": "about two hours",
+        "pred": "Two hours",
+        "verdict": "CORRECT",
+        "f1_token": 0.8
+      },
+      {
+        "idx": 176,
+        "question": "How many pre-1920 American coins do I have in my collection?",
+        "gold": "38",
+        "pred": "37",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 181,
+        "question": "How many projects have I completed since starting painting classes?",
+        "gold": "5",
+        "pred": "5",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 183,
+        "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+        "gold": "level 100",
+        "pred": "Reach level 100 before the end of the year.",
+        "verdict": "CORRECT",
+        "f1_token": 0.4444
+      },
+      {
+        "idx": 185,
+        "question": "What time do I wake up on Saturday mornings?",
+        "gold": "7:30 am",
+        "pred": "7:30 am",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 186,
+        "question": "How many women are on the team led by my former manager Rachel?",
+        "gold": "6",
+        "pred": "6",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 189,
+        "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+        "gold": "You increased the limit (from one cup to two cups)",
+        "pred": "increase",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 191,
+        "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+        "gold": "Instant Pot",
+        "pred": "None mentioned.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 193,
+        "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+        "gold": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+        "pred": "4 engineers",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 194,
+        "question": "How often do I see Dr. Johnson?",
+        "gold": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+        "pred": "Dr. Smith weekly",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2353
+      },
+      {
+        "idx": 195,
+        "question": "How long have I been living in my current apartment in Shinjuku?",
+        "gold": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+        "pred": "Not in Shinjuku.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.375
+      },
+      {
+        "idx": 197,
+        "question": "How often do I play table tennis with my friends at the local park?",
+        "gold": "The information provided is not enough. You mentioned playing tennis but not table tennis.",
+        "pred": "Not mentioned",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2667
+      },
+      {
+        "idx": 202,
+        "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+        "gold": "The user would prefer suggestions related to recent research papers, articles, or conferences that focus on artificial intelligence in healthcare, particularly those that involve deep learning for med",
+        "pred": "MICCAI 2023",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 204,
+        "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+        "gold": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on lang",
+        "pred": "Check locally.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 205,
+        "question": "Can you recommend a show or movie for me to watch tonight?",
+        "gold": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms",
+        "pred": "John Mulaney's \"Kid Gorgeous\"",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 214,
+        "question": "I've been feeling like my chocolate chip cookies need something extra. Any advice?",
+        "gold": "The user would prefer responses that build upon their previous experimentation with turbinado sugar, suggesting ingredients or techniques that complement its richer flavor. They might not prefer gener",
+        "pred": "Try adding oats.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 216,
+        "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+        "gold": "The user would prefer responses that take into account their existing plans to replace the bedroom dresser and their interest in mid-century modern style, suggesting furniture layouts that accommodate",
+        "pred": "Consider flow, balance.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0364
+      },
+      {
+        "idx": 219,
+        "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+        "gold": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect o",
+        "pred": "Yes, possible.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0345
+      },
+      {
+        "idx": 222,
+        "question": "I am planning another theme park weekend; do you have any suggestions?",
+        "gold": "The user would prefer theme park suggestions that cater to their interest in both thrill rides and special events, utilizing their previous experiences at Disneyland, Knott's Berry Farm, Six Flags Mag",
+        "pred": "Halloween Horror Nights",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 229,
+        "question": "I\u2019m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+        "gold": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might no",
+        "pred": "Use Suica card",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0889
+      },
+      {
+        "idx": 232,
+        "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+        "gold": "The Plesiosaur had a blue scaly body.",
+        "pred": "blue",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 234,
+        "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+        "gold": "Roscioli",
+        "pred": "Roscioli",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 235,
+        "question": "I remember you told me about the refining processes at CITGO's three refineries earlier. Can you remind me what kind of processes are used at the Lake Charles Refinery?",
+        "gold": "Atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrotreating.",
+        "pred": "Atmospheric distillation, FCC, alkylation, hydrotreating.",
+        "verdict": "CORRECT",
+        "f1_token": 0.7692
+      },
+      {
+        "idx": 236,
+        "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+        "gold": "International Budget Hostel",
+        "pred": "International Budget Hostel",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 239,
+        "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that",
+        "gold": "Doc Martin",
+        "pred": "Doc Martin",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 250,
+        "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+        "gold": "Mod Podge or another sealant",
+        "pred": "Mod Podge",
+        "verdict": "CORRECT",
+        "f1_token": 0.5714
+      },
+      {
+        "idx": 252,
+        "question": "I was going through our previous chat and I wanted to clarify something about the prayer of beginners in Tanqueray's Spiritual Life treatise. Can you remind me which chapter of the second part discuss",
+        "gold": "Chapter 4 of Book 1, titled 'Vocal Prayer and Meditation'.",
+        "pred": "Chapter 4 Book 1",
+        "verdict": "CORRECT",
+        "f1_token": 0.6154
+      },
+      {
+        "idx": 255,
+        "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was",
+        "gold": "Absinthe",
+        "pred": "Absinthe",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 256,
+        "question": "I wanted to follow up on our previous conversation about mindfulness techniques. You mentioned some great resources for guided imagery exercises, can you remind me of the website that had free exercis",
+        "gold": "Mindful.org.",
+        "pred": "Mindful.org",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 258,
+        "question": "I was going through our previous conversation about atmospheric correction methods, and I wanted to confirm - you mentioned that 6S, MAJA, and Sen2Cor are all algorithms for atmospheric correction of ",
+        "gold": "The 6S algorithm is implemented in the SIAC_GEE tool.",
+        "pred": "6S",
+        "verdict": "CORRECT",
+        "f1_token": 0.25
+      },
+      {
+        "idx": 259,
+        "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+        "gold": "2-3 eggs",
+        "pred": "2-3 eggs",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 260,
+        "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+        "gold": "By Chloe",
+        "pred": "By Chloe has multiple locations throughout the city.",
+        "verdict": "CORRECT",
+        "f1_token": 0.4444
+      },
+      {
+        "idx": 270,
+        "question": "I'm looking back at our previous conversation about the Bajimaya v Reward Homes Pty Ltd case. Can you remind me what year the construction of the house began?",
+        "gold": "2014.",
+        "pred": "2014",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 271,
+        "question": "I wanted to follow up on our previous conversation about YouTube videos for workplace posture. Can you remind me of the Mayo Clinic video you recommended?",
+        "gold": "The video is 'How to Sit Properly at a Desk to Avoid Back Pain' and the link is https://www.youtube.com/watch?v=UfOvNlX9Hh0.",
+        "pred": "UfOvNlX9Hh0",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 273,
+        "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+        "gold": "The Chiefs played the Jaguars 12 times at Arrowhead Stadium.",
+        "pred": "12 games",
+        "verdict": "CORRECT",
+        "f1_token": 0.2
+      },
+      {
+        "idx": 274,
+        "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+        "gold": "Fissionator.",
+        "pred": "Radialisk",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 275,
+        "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual ",
+        "gold": "@jessica_poole_jewellery",
+        "pred": "@jessica_poole_jewellery",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 276,
+        "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+        "gold": "The designation on your jumpsuit was 'LIV'.",
+        "pred": "LIV",
+        "verdict": "CORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 279,
+        "question": "I wanted to follow up on our previous conversation about fracking in the Marcellus Shale region. You mentioned that some states require fracking companies to monitor groundwater quality at nearby well",
+        "gold": "Pennsylvania",
+        "pred": "Pennsylvania requires monitoring groundwater quality before and after drilling.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2222
+      },
+      {
+        "idx": 282,
+        "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great j",
+        "gold": "Patagonia",
+        "pred": "Patagonia",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 283,
+        "question": "I was going through our previous conversation about high-end fashion brands, and I was wondering if you could remind me of the brand that uses wild rubber sourced from the Amazon rainforest?",
+        "gold": "Veja",
+        "pred": "Veja",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 285,
+        "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+        "gold": "Grilled Snapper with Mango Salsa",
+        "pred": "Grilled Snapper",
+        "verdict": "INCORRECT",
+        "f1_token": 0.5714
+      },
+      {
+        "idx": 287,
+        "question": "How long is my daily commute to work?",
+        "gold": "45 minutes each way",
+        "pred": "45 minutes each way",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 290,
+        "question": "What is the name of the playlist I created on Spotify?",
+        "gold": "Summer Vibes",
+        "pred": "Summer Vibes",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 295,
+        "question": "Where did I buy my new tennis racket from?",
+        "gold": "the sports store downtown",
+        "pred": "sports store downtown",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 298,
+        "question": "How many playlists do I have on Spotify?",
+        "gold": "20",
+        "pred": "20 playlists",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 299,
+        "question": "Where did I attend for my study abroad program?",
+        "gold": "University of Melbourne in Australia",
+        "pred": "University of Melbourne",
+        "verdict": "CORRECT",
+        "f1_token": 0.75
+      },
+      {
+        "idx": 301,
+        "question": "How long did it take me to assemble the IKEA bookshelf?",
+        "gold": "4 hours",
+        "pred": "4 hours",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 302,
+        "question": "What did I buy for my sister's birthday gift?",
+        "gold": "a yellow dress",
+        "pred": "Yellow dress\nPair of earrings",
+        "verdict": "INCORRECT",
+        "f1_token": 0.5714
+      },
+      {
+        "idx": 305,
+        "question": "What was my previous stance on spirituality?",
+        "gold": "A staunch atheist",
+        "pred": "staunch atheist",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 306,
+        "question": "What brand are my favorite running shoes?",
+        "gold": "Nike",
+        "pred": "Nike",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 308,
+        "question": "How many bikes do I own?",
+        "gold": "three",
+        "pred": "three",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 309,
+        "question": "What breed is my dog?",
+        "gold": "Golden Retriever",
+        "pred": "Unknown",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 311,
+        "question": "How many amateur comedians did I watch perform at the open mic night?",
+        "gold": "10",
+        "pred": "10",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 316,
+        "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+        "gold": "The painting is worth triple what I paid for it.",
+        "pred": "Triple the original price.",
+        "verdict": "CORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 319,
+        "question": "How long did it take to move to the new apartment?",
+        "gold": "5 hours",
+        "pred": "5 hours",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 321,
+        "question": "What type of rice is my favorite?",
+        "gold": "Japanese short-grain rice",
+        "pred": "Short-grain rice",
+        "verdict": "INCORRECT",
+        "f1_token": 0.8
+      },
+      {
+        "idx": 325,
+        "question": "How many copies of my favorite artist's debut album were released worldwide?",
+        "gold": "500",
+        "pred": "500",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 327,
+        "question": "Where did I go on a week-long trip with my family?",
+        "gold": "Hawaii",
+        "pred": "Hawaii",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 328,
+        "question": "What did I bake for my niece's birthday party?",
+        "gold": "a lemon blueberry cake",
+        "pred": "lemon blueberry cake",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 329,
+        "question": "What is the name of the music streaming service have I been using lately?",
+        "gold": "Spotify",
+        "pred": "Spotify",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 330,
+        "question": "How long did I wait for the decision on my asylum application?",
+        "gold": "over a year",
+        "pred": "Over a year",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 331,
+        "question": "What type of action figure did I buy from a thrift store?",
+        "gold": "a blue Snaggletooth",
+        "pred": "Snaggletooth",
+        "verdict": "INCORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 332,
+        "question": "How long was I in Japan for?",
+        "gold": "two weeks",
+        "pred": "two weeks",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 335,
+        "question": "What type of bulb did I replace in my bedside lamp?",
+        "gold": "Philips LED bulb",
+        "pred": "Philips LED bulb",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 338,
+        "question": "How many skeins of worsted weight yarn did I find in my stash?",
+        "gold": "17",
+        "pred": "17 skeins",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 343,
+        "question": "Where does my sister Emily live?",
+        "gold": "Denver",
+        "pred": "Denver",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 346,
+        "question": "What brand of shampoo do I currently use?",
+        "gold": "Trader Joe's",
+        "pred": "Lavender scented",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 347,
+        "question": "What health issue did I initially think was just a cold?",
+        "gold": "bronchitis",
+        "pred": "Bronchitis",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 349,
+        "question": "What game did I finally beat last weekend?",
+        "gold": "Dark Souls 3 DLC",
+        "pred": "Dark Souls 3 DLC boss",
+        "verdict": "CORRECT",
+        "f1_token": 0.8889
+      },
+      {
+        "idx": 350,
+        "question": "What is the name of my hamster?",
+        "gold": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+        "pred": "No hamster mentioned.",
+        "verdict": "CORRECT",
+        "f1_token": 0.2222
+      },
+      {
+        "idx": 352,
+        "question": "What did I bake for my uncle's birthday party?",
+        "gold": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+        "pred": "Niece's birthday party",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 355,
+        "question": "What did my dad gave me as a birthday gift?",
+        "gold": "You did not mention this information. You mentioned receiving a birthday gift from your sister, but not your dad.",
+        "pred": "Stand mixer",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 357,
+        "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a cust",
+        "gold": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+        "pred": "helped cousin, baby shower; prepared nursery; ordered phone case",
+        "verdict": "CORRECT",
+        "f1_token": 0.4211
+      },
+      {
+        "idx": 359,
+        "question": "How many months have passed since I participated in two charity events in a row, on consecutive days?",
+        "gold": "2",
+        "pred": "2 months",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 360,
+        "question": "How many days passed between the day I started playing along to my favorite songs on my old keyboard and the day I discovered a bluegrass band?",
+        "gold": "6 days. 7 days (including the last day) is also acceptable.",
+        "pred": "6 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 366,
+        "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+        "gold": "24 days. 25 days (including the last day) is also acceptable.",
+        "pred": "24 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 367,
+        "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+        "gold": "3 weeks ago",
+        "pred": "1 week",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 373,
+        "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amaz",
+        "gold": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+        "pred": "Walmart, Ibotta, ShopRite",
+        "verdict": "CORRECT",
+        "f1_token": 0.1579
+      },
+      {
+        "idx": 376,
+        "question": "How many weeks passed between the day I bought my new tennis racket and the day I received it?",
+        "gold": "1 week",
+        "pred": "7",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 377,
+        "question": "How many days ago did I meet Emma?",
+        "gold": "9 days ago. 10 days (including the last day) is also acceptable.",
+        "pred": "1 day ago",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 379,
+        "question": "How many days passed between the day I attended the gardening workshop and the day I planted the tomato saplings?",
+        "gold": "6 days. 7 days (including the last day) is also acceptable.",
+        "pred": "6 days",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 380,
+        "question": "How many days passed between the day I received feedback about my car's suspension and the day I tested my new suspension setup?",
+        "gold": "38 days. 39 days (including the last day) is also acceptable.",
+        "pred": "37 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1667
+      },
+      {
+        "idx": 386,
+        "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+        "gold": "15",
+        "pred": "13",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 388,
+        "question": "How many days passed between the day I finished reading 'The Nightingale' and the day I started reading 'The Hitchhiker's Guide to the Galaxy'?",
+        "gold": "1 day. 2 days (including the last day) is also acceptable.",
+        "pred": "1 day",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 390,
+        "question": "How many weeks have I been taking sculpting classes when I invested in my own set of sculpting tools?",
+        "gold": "3",
+        "pred": "6 weeks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 395,
+        "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+        "gold": "4",
+        "pred": "8 weeks",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 399,
+        "question": "How many days ago did I watch the Super Bowl?",
+        "gold": "17 days ago. 18 days (including the last day) is also acceptable.",
+        "pred": "9 days ago",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 404,
+        "question": "How many days ago did I participate in the 5K charity run?",
+        "gold": "7 days ago. 8 days (including the last day) is also acceptable.",
+        "pred": "0 days ago",
+        "verdict": "INCORRECT",
+        "f1_token": 0.2857
+      },
+      {
+        "idx": 405,
+        "question": "Which event happened first, my participation in the #PlankChallenge or my post about vegan chili recipe?",
+        "gold": "You posted a recipe for vegan chili on Instagram using the hashtag #FoodieAdventures first.",
+        "pred": "Your post about the vegan chili recipe happened first.",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 409,
+        "question": "Which book did I finish a week ago?",
+        "gold": "'The Nightingale' by Kristin Hannah",
+        "pred": "The Nightingale",
+        "verdict": "CORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 411,
+        "question": "I received a piece of jewelry last Saturday from whom?",
+        "gold": "my aunt",
+        "pred": "No information given about receiving jewelry.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 412,
+        "question": "What charity event did I participate in a month ago?",
+        "gold": "the 'Walk for Hunger' charity event",
+        "pred": "Walk for Hunger",
+        "verdict": "CORRECT",
+        "f1_token": 0.75
+      },
+      {
+        "idx": 413,
+        "question": "Who did I go with to the music event last Saturday?",
+        "gold": "my parents",
+        "pred": "The excerpts do not mention who you went with.",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 414,
+        "question": "What gardening-related activity did I do two weeks ago?",
+        "gold": "planting 12 new tomato saplings",
+        "pred": "attended workshop",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 424,
+        "question": "I mentioned visiting a museum two months ago. Did I visit with a friend or not?",
+        "gold": "No, you did not visit with a friend.",
+        "pred": "with a friend",
+        "verdict": "INCORRECT",
+        "f1_token": 0.4444
+      },
+      {
+        "idx": 427,
+        "question": "Where did I attend the religious activity last week?",
+        "gold": "the Episcopal Church",
+        "pred": "Episcopal Church",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 429,
+        "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+        "gold": "8 miles",
+        "pred": "8 miles",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 430,
+        "question": "How many pages do I have left to read in 'The Nightingale'?",
+        "gold": "190",
+        "pred": "350(pages)",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 431,
+        "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+        "gold": "$6",
+        "pred": "6",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 433,
+        "question": "How many antique items did I inherit or acquire from my family members?",
+        "gold": "5",
+        "pred": "2",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 436,
+        "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+        "gold": "$750",
+        "pred": "750",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 438,
+        "question": "When did I submit my research paper on sentiment analysis?",
+        "gold": "February 1st",
+        "pred": "2023/05/23",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 441,
+        "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+        "gold": "27",
+        "pred": "25",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 444,
+        "question": "How much older am I than the average age of employees in my department?",
+        "gold": "2.5 years",
+        "pred": "2.5 years",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 445,
+        "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+        "gold": "12,000",
+        "pred": "10050",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 447,
+        "question": "How much did I save on the designer handbag at TK Maxx?",
+        "gold": "$300",
+        "pred": "Not specified",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 454,
+        "question": "What is the total number of days I spent in Japan and Chicago?",
+        "gold": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+        "pred": "9 days",
+        "verdict": "INCORRECT",
+        "f1_token": 0.1176
+      },
+      {
+        "idx": 455,
+        "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+        "gold": "$5,150",
+        "pred": "$150",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 456,
+        "question": "What percentage of the countryside property's price is the cost of the renovations I plan to do on my current house?",
+        "gold": "10%",
+        "pred": "10%",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 458,
+        "question": "How much more did I have to pay for the trip after the initial quote?",
+        "gold": "$300",
+        "pred": "$300 more.",
+        "verdict": "CORRECT",
+        "f1_token": 0.6667
+      },
+      {
+        "idx": 459,
+        "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+        "gold": "8 meals",
+        "pred": "4",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 463,
+        "question": "How much more was the pre-approval amount than the final sale price of the house?",
+        "gold": "$25,000",
+        "pred": "25000",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 464,
+        "question": "What is the total cost of the car cover and detailing spray I purchased?",
+        "gold": "$140",
+        "pred": "140",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 467,
+        "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+        "gold": "2",
+        "pred": "2",
+        "verdict": "CORRECT",
+        "f1_token": 1.0
+      },
+      {
+        "idx": 470,
+        "question": "How many years will I be when my friend Rachel gets married?",
+        "gold": "33",
+        "pred": "Not specified",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 473,
+        "question": "How much did I spend on gifts for my sister?",
+        "gold": "$300",
+        "pred": "$200",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 474,
+        "question": "What time did I reach the clinic on Monday?",
+        "gold": "9:00 AM",
+        "pred": "Unknown",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 478,
+        "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+        "gold": "1,998",
+        "pred": "542 + 1456",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 480,
+        "question": "How many years older am I than when I graduated from college?",
+        "gold": "7",
+        "pred": "10",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 482,
+        "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+        "gold": "33",
+        "pred": "12, 21",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 483,
+        "question": "How many days a week do I attend fitness classes?",
+        "gold": "4 days.",
+        "pred": "3 days a week",
+        "verdict": "INCORRECT",
+        "f1_token": 0.4
+      },
+      {
+        "idx": 486,
+        "question": "What is the average GPA of my undergraduate and graduate studies?",
+        "gold": "3.83",
+        "pred": "3.86, 3.8",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 487,
+        "question": "How many minutes did I exceed my target time by in the marathon?",
+        "gold": "12",
+        "pred": "12\u5206\u949f",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 490,
+        "question": "How much have I made from selling eggs this month?",
+        "gold": "$120",
+        "pred": "Not specified",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 492,
+        "question": "How much earlier do I wake up on Fridays compared to other weekdays?",
+        "gold": "30 minutes",
+        "pred": "No difference",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 494,
+        "question": "How many pages do I have left to read in 'Sapiens'?",
+        "gold": "The information provided is not enough. You did not mention how many paged do you have left to read in 'Sapiens'.",
+        "pred": "440(pages)",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 496,
+        "question": "What is the total cost of my recently purchased headphones and the iPad?",
+        "gold": "The information provided is not enough. You mentioned purchasing a headphone, but you did not mention the iPad.",
+        "pred": "Not enough information",
+        "verdict": "CORRECT",
+        "f1_token": 0.3333
+      },
+      {
+        "idx": 498,
+        "question": "How old will Rachel be when I get married?",
+        "gold": "The information provided is not enough. You did not mention how old Rachel is right now, nor when will you get married.",
+        "pred": "Insufficient info",
+        "verdict": "CORRECT",
+        "f1_token": 0.0
+      },
+      {
+        "idx": 499,
+        "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+        "gold": "The information provided is not enough. You did not mention how much will the bus take.",
+        "pred": "$50-$60",
+        "verdict": "INCORRECT",
+        "f1_token": 0.0
+      }
+    ]
+  },
+  "delta_judge_accuracy": 0.0050000000000000044
+}

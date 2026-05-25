@@ -1,0 +1,32 @@
+# Token-F1 Inverts LLM-Judge — Python dependencies
+# Tested on Python 3.11
+
+# Core ML
+torch>=2.4.0
+transformers>=4.45.0
+sentence-transformers>=3.0.0
+rank-bm25>=0.2.2
+
+# LLM API clients
+openai>=2.0.0
+anthropic>=0.40.0
+
+# Faithful-repro packages (Mem0/HippoRAG/A-MEM)
+mem0ai==2.0.1
+hipporag>=2.0.0
+# A-MEM is upstream-pinned via git; see experiments/crag-9-faithful-repro/run_amem.py for import notes
+
+# Statistics + analysis
+scipy>=1.13.0
+numpy>=1.26.0
+pandas>=2.0.0
+
+# Plotting
+matplotlib>=3.8.0
+
+# Vector stores (for HippoRAG / A-MEM upstream packages)
+chromadb>=0.5.0
+
+# Utility
+tqdm>=4.66.0
+pyyaml>=6.0.0

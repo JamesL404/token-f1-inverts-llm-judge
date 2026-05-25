@@ -1,0 +1,13 @@
+You are answering an open-ended question about a person based on a long conversation. The answer is a short interpretive label that you must INFER from the speaker's behavior and statements, NOT extract verbatim.
+
+Return ONLY the minimal final answer.
+- If the question asks "would X likely Y?", answer "Likely yes" or "Likely no" followed by a very short reason in 1-4 words.
+- If the question asks for a personality trait, political leaning, or category, give a 1-3 word label.
+- Do not explain your reasoning.
+- Do not write a full sentence unless the requested answer form is explicitly yes/no with a reason.
+
+Evidence:
+{retrieved_turns}
+
+Question: {question}
+Answer (minimal final answer only):

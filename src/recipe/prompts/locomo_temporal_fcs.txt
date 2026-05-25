@@ -1,0 +1,7 @@
+You are answering a temporal question about a long conversation. Return ONLY the minimal final answer. Output at most 5 words, in "D Month YYYY" format or as a brief time interval. Do not explain. Do not add commentary.
+
+Excerpts (each with session date):
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer:

@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "system": "mem0-faithful-repro",
+    "memory_layer": "mem0ai==2.0.1, gpt-4o-mini extraction, text-embedding-3-small",
+    "generator": "Qwen/Qwen2.5-14B-Instruct, FCS prompt (matches cell J)",
+    "n_questions": 9,
+    "top_k": 5,
+    "f1": 0.47037037037037027,
+    "avg_completion_chars": 12.444444444444445,
+    "avg_memories_retrieved": 9.777777777777779,
+    "total_wall_time_s": 84.23681259155273,
+    "by_label": {
+      "temporal": {
+        "n": 9,
+        "f1": 0.47037037037037027
+      }
+    }
+  },
+  "predictions": [
+    {
+      "question_id": "gpt4_2487a7cb",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+      "gold_answer": "'Data Analysis using Python' webinar",
+      "prediction": "'Data Analysis using Python' webinar",
+      "n_memories_retrieved": 11,
+      "memories": [
+        "User participated in a webinar on 'Data Analysis using Python' two months ago, where the instructor shared resources on data visualization.",
+        "User is working on a project that involves data analysis and is seeking resources for learning about data visualization in Python.",
+        "User wants to focus more on learning new skills and expanding their knowledge, attending workshops and lectures, including one on 'Effective Time Management' at the local community center.",
+        "User plans to try out both Tableau and Power BI's free trials to evaluate their interfaces and customization options, as well as explore their Python APIs and documentation.",
+        "User is considering using Python to connect to the data source and create a dashboard, focusing on ease of use and customization options.",
+        "User has been implementing strategies like prioritizing tasks and breaking them down into smaller chunks, which has been helping them stay on top of their work.",
+        "User is trying to get more organized and stay on top of tasks, seeking recommendations for apps or tools to prioritize tasks and avoid procrastination.",
+        "User is looking for online resources or courses to help them learn new skills and expand their knowledge.",
+        "User is looking for ways to minimize distractions while working, especially on tasks that require concentration.",
+        "User finds social media to be a significant distraction while working and is looking for suggestions to avoid it.",
+        "User is trying to break the habit of mindlessly checking their phone while working."
+      ],
+      "completion_chars": 36,
+      "f1": 1.0
+    },
+    {
+      "question_id": "gpt4_76048e76",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "Which vehicle did I take care of first in February, the bike or the car?",
+      "gold_answer": "bike",
+      "prediction": "Bike",
+      "n_memories_retrieved": 10,
+      "memories": [
+        "User had to take their bike in for repairs in mid-February 2026 due to issues with the gears not shifting properly.",
+        "User washed their current Corolla on February 27, 2026, after not doing so for over a month due to dirt accumulation from a recent snowstorm.",
+        "User spent about $20 on detailing their Corolla, which included vacuuming the interior and cleaning the wheels and tires.",
+        "User is researching the maintenance costs of the Corolla Hybrid, noting that they have been doing some maintenance on their current car themselves.",
+        "User has a hybrid bike and wants to carry just one bike using a hitch-mounted rack for their Toyota Corolla.",
+        "User's friend borrowed their Corolla and reported that the 'check engine' light came on, prompting user to take the car to the dealership for a routine checkup.",
+        "User is leaning towards the Kuat Transfer bike rack for their hybrid bike due to its integrated cable lock, higher weight capacity, and premium design.",
+        "User recently renewed their car insurance policy and secured a better rate with a different provider, saving about $20 a month.",
+        "User is considering trading in their current Toyota Corolla for the newer hybrid model and is researching its fuel efficiency and maintenance costs.",
+        "User is interested in the advanced safety features of the Toyota Corolla Hybrid, which include Toyota Safety Sense 2.0 and other safety technologies."
+      ],
+      "completion_chars": 4,
+      "f1": 1.0
+    },
+    {
+      "question_id": "gpt4_2312f94c",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?",
+      "gold_answer": "Samsung Galaxy S22",
+      "prediction": "Dell XPS 13",
+      "n_memories_retrieved": 7,
+      "memories": [
+        "User's new laptop, a Dell XPS 13, was pre-ordered on January 28, 2026, and arrived on February 25, 2026, after a delay from the original expected arrival date of February 11, 2026.",
+        "User is preparing for their trip to Hawaii by ensuring they have the right power adapters for their devices, including their Dell XPS 13 laptop and Samsung Galaxy S22 smartphone.",
+        "User is planning a trip to Hawaii and wants to ensure their new Samsung Galaxy S22 stays charged. They purchased the phone from Best Buy on February 20, 2026, and saved around $100 with a student discount, trading in their old iPhone 12 for an additional $200 off.",
+        "User plans to bring their Anker PowerCore 20000 portable power bank, which they bought from Amazon on February 13, 2026, to keep their devices charged during the trip.",
+        "User decided to leave their Belkin Boost Up wireless charging pad at home and will use a travel adapter with multiple USB ports to charge their devices via cable during the trip.",
+        "User plans to use their devices moderately during the trip to Hawaii and believes the Anker PowerCore 20000 will be sufficient for charging.",
+        "User is interested in hiking trails suitable for beginners on Maui and is excited to track their fitness goals using their new phone during the trip."
+      ],
+      "completion_chars": 11,
+      "f1": 0.0
+    },
+    {
+      "question_id": "0bb5a684",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "How many days before the team meeting I was preparing for did I attend the workshop on 'Effective Communication in the Workplace'?",
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "prediction": "7 days",
+      "n_memories_retrieved": 10,
+      "memories": [
+        "User attended a workshop on 'Effective Communication in the Workplace' on January 10, 2026, which helped improve their active listening and conflict resolution skills.",
+        "User made a note to practice their communication skills in the upcoming team meeting on January 17, 2026.",
+        "User is preparing for a team meeting on January 17, 2026, and is focused on effectively communicating project updates.",
+        "User is looking for tips on structuring their presentation to keep their team engaged.",
+        "User is concerned about staying on track with their team meeting agenda and is looking for suggestions on prioritizing tasks and allocating time for each discussion topic.",
+        "User is concerned about taking notes during the meeting and is looking for effective note-taking strategies and organization methods.",
+        "User is interested in how to handle off-agenda topics that arise during the meeting while maintaining focus on the agenda.",
+        "User is exploring digital templates for organizing notes during their team meeting, including options for Microsoft OneNote, Evernote, and Google Docs.",
+        "User plans to incorporate interactive elements like polls or Q&A sessions into their presentation.",
+        "User is interested in tools or software for creating visually appealing slides and diagrams for their presentation."
+      ],
+      "completion_chars": 6,
+      "f1": 0.33333333333333337
+    },
+    {
+      "question_id": "08f4fc43",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+      "gold_answer": "30 days. 31 days (including the last day) is also acceptable.",
+      "prediction": "46 days",
+      "n_memories_retrieved": 10,
+      "memories": [
+        "User attended the Ash Wednesday service at the cathedral on February 1, 2026, which inspired them to reflect on the importance of giving back to the community.",
+        "User is curious about organizations or charities that focus on providing food and shelter to the homeless during the Lenten season.",
+        "User is interested in learning more about Catholic Charities, specifically their housing and shelter services.",
+        "User is interested in learning more about Catholic Charities' job training and education services.",
+        "User is considering reaching out to their Bible study group to organize a food drive or fundraiser to support a local organization that helps the homeless.",
+        "User attended a spiritual retreat at a local Buddhist temple, which included meditation and yoga sessions that helped them relax and focus.",
+        "User is interested in learning more about Catholic Charities' entrepreneurship training program and the types of businesses launched through it.",
+        "User is planning to volunteer at a local soup kitchen on the weekend and is seeking tips on making a positive impact during their time there.",
+        "User is interested in learning more about the microloans and grants that Catholic Charities provides to entrepreneurs, including the application process and eligibility criteria.",
+        "User's Bible study group is currently going through the Book of Psalms."
+      ],
+      "completion_chars": 7,
+      "f1": 0.16666666666666669
+    },
+    {
+      "question_id": "2c63a862",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "How many days did it take for me to find a house I loved after starting to work with Rachel?",
+      "gold_answer": "14 days. 15 days (including the last day) is also acceptable.",
+      "prediction": "29 days",
+      "n_memories_retrieved": 6,
+      "memories": [
+        "User is working with a real estate agent named Rachel to find a home and has been pre-approved for a mortgage up to $350,000 since February 10, 2026.",
+        "User plans to submit their offer today, and Rachel will present it to the seller.",
+        "User saw a house they love on March 1, 2026, and is considering making an offer of $320,000, which is below the asking price of $335,000.",
+        "User plans to make their offer contingent on an inspection and will include their pre-approval letter with the offer.",
+        "User feels prepared to negotiate and hopes to come to a mutually beneficial agreement with the seller.",
+        "User is confident that the inspection contingency will protect them in case any issues are found with the property."
+      ],
+      "completion_chars": 7,
+      "f1": 0.16666666666666669
+    },
+    {
+      "question_id": "gpt4_385a5000",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "Which seeds were started first, the tomatoes or the marigolds?",
+      "gold_answer": "Tomatoes",
+      "prediction": "Tomatoes were started first.",
+      "n_memories_retrieved": 8,
+      "memories": [
+        "User is planning to plant seedlings in their backyard soon and has started marigold seeds that arrived on March 3, 2026, which are already germinating.",
+        "User has been starting seeds indoors under grow lights in their basement since February 20, 2026, including tomatoes, peppers, and cucumbers, which are now about 2-3 inches tall.",
+        "User is planning to plant out their seedlings soon and is wondering if it's too early to plant out their tomatoes, peppers, and cucumbers based on soil temperature.",
+        "User is considering using a combination of stakes and twine to support their marigolds as they grow.",
+        "User is thinking of adding support for their marigolds as they grow and is considering DIY trellises or stakes.",
+        "User has been fertilizing their seedlings with a balanced fertilizer and ensuring the soil is moist but not soggy.",
+        "User is looking for the best way to support the peas they've planted, which are already sprouting, and is considering adding a trellis or cage.",
+        "User is preparing a raised bed in their backyard by adding a 2-inch layer of compost and mixing it into the soil to help warm it up."
+      ],
+      "completion_chars": 28,
+      "f1": 0.4
+    },
+    {
+      "question_id": "2a1811e2",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "How many days had passed between the Hindu festival of Holi and the Sunday mass at St. Mary's Church?",
+      "gold_answer": "21 days. 22 days (including the last day) is also acceptable.",
+      "prediction": "23 days",
+      "n_memories_retrieved": 13,
+      "memories": [
+        "User attended the Holi celebration at their local temple on February 26, 2026, where they enjoyed throwing colors and learning about the festival's significance.",
+        "User had a blast throwing colors during Holi and learned about its significance.",
+        "User enjoyed throwing colors during Holi with their colleague Rohan and his family.",
+        "User is interested in learning about the significance of colors in Holi and wants to have colorful powders at home for next year's celebration.",
+        "User had a great time at the Holi celebration, especially trying Gujarati snacks.",
+        "User expressed interest in making traditional Indian sweets like gujiyas and mathris for Holi.",
+        "User was inspired by Father John's sermon on forgiveness and compassion at St. Mary's Church on March 19, 2026.",
+        "User is looking for good recipes for traditional Indian sweets like gujiyas and mathris that are often served during Holi.",
+        "User sat in the third pew from the front at St. Mary's Church on March 19, 2026, next to their cousin Emma, who was visiting from out of town.",
+        "User caught up with their cousin Emma at St. Mary's Church and exchanged numbers to meet up for brunch later that week.",
+        "User is planning to volunteer at a local community event next weekend and is looking for fundraising activity ideas.",
+        "User liked the fundraising ideas suggested for their community event, especially the bake sale and walk/run event.",
+        "User is excited to share social media promotion tips for their charity event with their team."
+      ],
+      "completion_chars": 7,
+      "f1": 0.16666666666666669
+    },
+    {
+      "question_id": "bbf86515",
+      "question_type": "temporal-reasoning",
+      "gold_label": "temporal",
+      "question": "How many days before the 'Rack Fest' did I participate in the 'Turbocharged Tuesdays' event?",
+      "gold_answer": "4 days.",
+      "prediction": "4 days",
+      "n_memories_retrieved": 13,
+      "memories": [
+        "User participated in the 'Turbocharged Tuesdays' auto racing event at the local racing track on June 14, 2023, achieving a personal best time of 12.8 seconds in the quarter-mile drag race.",
+        "User received a free can of NitroFuel's premium fuel additive at the 'Turbocharged Tuesdays' event, which they plan to use for their next event.",
+        "User attended the 'Rack Fest' event in a nearby city on June 18, 2023, and described it as an amazing event.",
+        "User is planning to attend the 'Racing Nationals' event in August 2023, one of the biggest drag racing events in the country, and has already booked a hotel room and reserved a spot in the event.",
+        "User is looking for advice on optimizing their car's performance for auto racing events, specifically regarding suspension and braking system improvements.",
+        "User is considering performance upgrades for their 2018 Ford Mustang GT, specifically exhaust and suspension upgrades.",
+        "User is looking for shops in their area that specialize in Mustang performance upgrades.",
+        "User is interested in learning about the differences between all-season tires, high-performance tires, and track-focused tires for their 2018 Ford Mustang GT.",
+        "User is looking for recommendations on performance air filters for their 2018 Ford Mustang GT after modifying the exhaust system to increase power.",
+        "User is thinking of getting a new set of lightweight wheels and high-performance tires for their 2018 Ford Mustang GT.",
+        "User is considering getting a rear spoiler or front splitter for their 2018 Ford Mustang GT to improve aerodynamics and reduce drag.",
+        "User is looking for recommendations on car wax products and has been using SpeedShine's detailing kit.",
+        "User is interested in trying out Meguiar's Gold Class Carnauba Plus for car wax after hearing good things about it."
+      ],
+      "completion_chars": 6,
+      "f1": 1.0
+    }
+  ]
+}

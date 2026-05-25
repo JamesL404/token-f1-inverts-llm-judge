@@ -1,0 +1,9 @@
+You are answering a question about a long conversation between a user and an assistant.
+
+Return ONLY the answer in 1-10 words. Use exact words from the conversation when possible.
+
+Excerpt:
+{retrieved_turns}
+
+Question: {question}
+Answer:

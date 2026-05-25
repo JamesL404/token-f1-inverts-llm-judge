@@ -1,0 +1,192 @@
+{
+  "seeds": {
+    "20260506": {
+      "knowledge-update": {
+        "cal_p75": 4,
+        "cal_form": "numeric_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 4 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "multi-session": {
+        "cal_p75": 2,
+        "cal_form": "numeric_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 266,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 2 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "single-session": {
+        "cal_p75": 15,
+        "cal_form": "short_span",
+        "cal_text_len": 233,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 15 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "temporal": {
+        "cal_p75": 11,
+        "cal_form": "free_text",
+        "cal_text_len": 346,
+        "deployed_text_len": 233,
+        "byte_identical": false,
+        "cal_text": "You are answering a temporal question about a long conversation. Each excerpt is prefixed with the SESSION DATE. Return ONLY the minimal final answer. Output at most 11 words, in \"D Month YYYY\" format or as a brief time interval. Do not explain.\n\nExcerpts (each with session date):\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      }
+    },
+    "20260507": {
+      "knowledge-update": {
+        "cal_p75": 4,
+        "cal_form": "short_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 4 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "multi-session": {
+        "cal_p75": 2,
+        "cal_form": "numeric_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 266,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 2 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "single-session": {
+        "cal_p75": 15,
+        "cal_form": "short_span",
+        "cal_text_len": 233,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 15 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "temporal": {
+        "cal_p75": 11,
+        "cal_form": "short_span",
+        "cal_text_len": 346,
+        "deployed_text_len": 233,
+        "byte_identical": false,
+        "cal_text": "You are answering a temporal question about a long conversation. Each excerpt is prefixed with the SESSION DATE. Return ONLY the minimal final answer. Output at most 11 words, in \"D Month YYYY\" format or as a brief time interval. Do not explain.\n\nExcerpts (each with session date):\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      }
+    },
+    "20260508": {
+      "knowledge-update": {
+        "cal_p75": 3,
+        "cal_form": "short_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 232,
+        "byte_identical": true,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 3 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "multi-session": {
+        "cal_p75": 10,
+        "cal_form": "numeric_span",
+        "cal_text_len": 233,
+        "deployed_text_len": 266,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 10 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "single-session": {
+        "cal_p75": 14,
+        "cal_form": "short_span",
+        "cal_text_len": 233,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 14 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "temporal": {
+        "cal_p75": 11,
+        "cal_form": "free_text",
+        "cal_text_len": 346,
+        "deployed_text_len": 233,
+        "byte_identical": false,
+        "cal_text": "You are answering a temporal question about a long conversation. Each excerpt is prefixed with the SESSION DATE. Return ONLY the minimal final answer. Output at most 11 words, in \"D Month YYYY\" format or as a brief time interval. Do not explain.\n\nExcerpts (each with session date):\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      }
+    },
+    "20260509": {
+      "knowledge-update": {
+        "cal_p75": 3,
+        "cal_form": "short_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 232,
+        "byte_identical": true,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 3 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "multi-session": {
+        "cal_p75": 2,
+        "cal_form": "numeric_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 266,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 2 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "single-session": {
+        "cal_p75": 19,
+        "cal_form": "short_span",
+        "cal_text_len": 233,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 19 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "temporal": {
+        "cal_p75": 11,
+        "cal_form": "free_text",
+        "cal_text_len": 346,
+        "deployed_text_len": 233,
+        "byte_identical": false,
+        "cal_text": "You are answering a temporal question about a long conversation. Each excerpt is prefixed with the SESSION DATE. Return ONLY the minimal final answer. Output at most 11 words, in \"D Month YYYY\" format or as a brief time interval. Do not explain.\n\nExcerpts (each with session date):\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      }
+    },
+    "20260510": {
+      "knowledge-update": {
+        "cal_p75": 4,
+        "cal_form": "short_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 4 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "multi-session": {
+        "cal_p75": 2,
+        "cal_form": "numeric_span",
+        "cal_text_len": 232,
+        "deployed_text_len": 266,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 2 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "single-session": {
+        "cal_p75": 19,
+        "cal_form": "short_span",
+        "cal_text_len": 233,
+        "deployed_text_len": 232,
+        "byte_identical": false,
+        "cal_text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 19 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      },
+      "temporal": {
+        "cal_p75": 11,
+        "cal_form": "short_span",
+        "cal_text_len": 346,
+        "deployed_text_len": 233,
+        "byte_identical": false,
+        "cal_text": "You are answering a temporal question about a long conversation. Each excerpt is prefixed with the SESSION DATE. Return ONLY the minimal final answer. Output at most 11 words, in \"D Month YYYY\" format or as a brief time interval. Do not explain.\n\nExcerpts (each with session date):\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n"
+      }
+    }
+  },
+  "deployed": {
+    "knowledge-update": {
+      "text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 3 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n",
+      "len": 232
+    },
+    "single-session": {
+      "text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 3 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n",
+      "len": 232
+    },
+    "multi-session": {
+      "text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output exactly one number, optionally followed by a unit. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n",
+      "len": 266
+    },
+    "temporal": {
+      "text": "You are answering a question about a long conversation. Return ONLY the minimal final answer. Output at most 11 words. Do not explain. Do not add commentary.\n\nExcerpts:\n{retrieved_turns_with_timestamps}\n\nQuestion: {question}\nAnswer:\n",
+      "len": 233
+    }
+  }
+}

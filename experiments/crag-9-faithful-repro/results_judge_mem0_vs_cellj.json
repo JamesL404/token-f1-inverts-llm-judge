@@ -1,0 +1,1638 @@
+{
+  "system": "mem0",
+  "n_paired": 200,
+  "openai_judge": {
+    "model": "gpt-4o-mini",
+    "sys_acc": 0.52,
+    "j_acc": 0.585,
+    "delta": -0.06499999999999995,
+    "discordant": {
+      "sys_only": 23,
+      "j_only": 36
+    },
+    "concordant": {
+      "both": 81,
+      "neither": 60
+    },
+    "mcnemar_chi2": 2.440677966101695,
+    "mcnemar_p_two_sided": 0.11822511872392336
+  },
+  "anthropic_judge": {
+    "model": "claude-sonnet-4-5",
+    "sys_acc": 0.56,
+    "j_acc": 0.565,
+    "delta": -0.004999999999999893,
+    "discordant": {
+      "sys_only": 29,
+      "j_only": 30
+    },
+    "concordant": {
+      "both": 83,
+      "neither": 58
+    },
+    "mcnemar_chi2": 0.0,
+    "mcnemar_p_two_sided": 1.0
+  },
+  "verdicts": [
+    {
+      "qid": "001be529",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "0100672e",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "06f04340",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "07741c44",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "07741c45",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "07b6f563",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "08e075c7",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "0977f2af",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "099778bb",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "09ba9854_abs",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "0a34ad58",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "0db4c65d",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "0ddfec37",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "0ddfec37_abs",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "0e4e4c46",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "0e5e2d1a",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "0edc2aef",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "10e09553",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "157a136e",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "18dcd5a5",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "1903aded",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "19b5f2b3_abs",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "1a1907b4",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "1a8a66a6",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "1c0ddc50",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "1d4da289",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "1da05512",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "2133c1b5",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "2133c1b5_abs",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "21436231",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "22d2cb42",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "2698e78f",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "2698e78f_abs",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "27016adc",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "28dc39ac",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "2b8f3739",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "2e6d26dc",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "370a8ff4",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "37f165cf",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "3a704032",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "3b6f954b",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "3ba21379",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "3d86fd0a",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "3e321797",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "41698283",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "42ec0761",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "4388e9dd",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "45dc21b6",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "488d3006",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "4baee567",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "4d6b87c8",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "4f54b7c9",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "5025383b",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "50635ada",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "561fabcd",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "5831f84d",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "58470ed2",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "59524333",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "5a4f22c0",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "5a7937c8",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "5e1b23de",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "60036106",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "60bf93ed",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "60d45044",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "618f13b2",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "6222b6eb",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "6456829e",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "6a1eabeb",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "6a27ffc2",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "6aeb4375",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "6aeb4375_abs",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "6b168ec8",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "7024f17c",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "70b3e69b",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "7161e7e2",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "71a3fd6b",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "720133ac",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "726462e0",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "72e3ee87",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "7405e8b1",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "7527f7e2",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "76d63226",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "7a87bd0c",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "7e974930",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "80ec1f4f_abs",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "830ce83f",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "8464fc84",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "853b0a1d",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "88432d0a_abs",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "89941a94",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "8cf4d046",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "8e91e7d9",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "8fb83627",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "95bcc1c8",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "982b5123_abs",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "9d25d4e0",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "9ea5eabc",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "9ee3ecd6",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "a11281a2",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "a1cc6108",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "a1eacc2a",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "a3045048",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "a3332713",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "a40e080f",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "a89d7624",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "a96c20ee_abs",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "afdc33df",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "affe2881",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b01defab",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b3c15d39",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b46e15ed",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b5ef892d",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b6019101",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b759caee",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "b86304ba",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "ba358f49",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "bbf86515",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "bc8a6e93_abs",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "bf659f65",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "c14c00dd",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "c2ac3c61",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "c4ea545c",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "c4f10528",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "c6853660",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "c7dc5443",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "c8f1aeed",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "caf03d32",
+      "label": "single-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "caf9ead2",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "cc5ded98",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "cc6d1ec1",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "ce6d2d27",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "cf22b7bf",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "d01c6aa8",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "d596882b",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "d682f1a2",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "d7c942c3",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "d905b33f",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "db467c8c",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "dd2973ad",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "dfde3500",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "e01b8e2f",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "e48988bc",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "e56a43b9",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "e5ba910e_abs",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "e66b632c",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "e831120c",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "eac54adc",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "eace081b",
+      "label": "knowledge-update",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "ed4ddc30",
+      "label": "knowledge-update",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "ef9cf60a",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "f523d9fe",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "fea54f57",
+      "label": "single-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_15e38248",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_1a1dc16d",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_213fd887",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_2487a7cb",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_2ba83207",
+      "label": "multi-session",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_2c50253f",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_2f91af09",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_372c3eed",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_372c3eed_abs",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_385a5000",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_45189cb4",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_468eb063",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_468eb064",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_4929293a",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_4edbafa2",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_4ef30696",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_4fc4f797",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_5438fa52",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_59149c77",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_65aabe59",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_68e94287",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_70e84552",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_74aed68e",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_76048e76",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_7abb270c",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_7bc6cf22",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_7f6b06db",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_85da3956",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_88806d6e",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_8c8961ae",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_93159ced",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_93159ced_abs",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_93f6379c",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_98f46fc6",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_a56e767c",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_b0863698",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_b5700ca0",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_c27434e8",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_cd90e484",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_d12ceb0e",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_d6585ce9",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_d84a3211",
+      "label": "multi-session",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_d9af6064",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_e414231e",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "CORRECT"
+    },
+    {
+      "qid": "gpt4_f420262c",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_f49edff3",
+      "label": "temporal",
+      "sys_oai": "CORRECT",
+      "j_oai": "CORRECT",
+      "sys_ant": "CORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_fe651585",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    },
+    {
+      "qid": "gpt4_fe651585_abs",
+      "label": "temporal",
+      "sys_oai": "INCORRECT",
+      "j_oai": "INCORRECT",
+      "sys_ant": "INCORRECT",
+      "j_ant": "INCORRECT"
+    }
+  ]
+}

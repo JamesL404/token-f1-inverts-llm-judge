@@ -1,0 +1,15 @@
+You are answering a question about a long conversation between two people. Read the relevant excerpt below and extract the specific fact requested.
+
+Return ONLY the minimal final answer.
+- Answer in 1-5 words.
+- Do not paraphrase.
+- Do not add context.
+- Do not output a full sentence unless the answer itself is a sentence fragment in the excerpt.
+- Use exact words from the conversation when possible.
+- If the excerpt does not support a clear answer, reply exactly: "no information available".
+
+Excerpt:
+{retrieved_turns}
+
+Question: {question}
+Answer (minimal final answer only):

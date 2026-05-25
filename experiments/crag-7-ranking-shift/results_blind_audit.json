@@ -1,0 +1,656 @@
+{
+  "rows": [
+    {
+      "idx": 16,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 22,
+      "lab_B": "P",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 28,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 32,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 33,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 35,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 47,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 58,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 73,
+      "lab_B": "C",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 79,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 80,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 107,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 116,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 122,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 125,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 136,
+      "lab_B": "P",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 138,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 140,
+      "lab_B": "C",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 152,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 176,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 183,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 186,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 191,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 219,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 236,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 259,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 321,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 330,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 331,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 338,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 346,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 352,
+      "lab_B": "C",
+      "lab_E": "P",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 357,
+      "lab_B": "I",
+      "lab_E": "P",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 376,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 379,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 380,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 399,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 413,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 424,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 427,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 431,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 441,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 454,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 459,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 463,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 478,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 482,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "CORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 486,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 492,
+      "lab_B": "I",
+      "lab_E": "I",
+      "gpt_B": "INCORRECT",
+      "gpt_E": "INCORRECT",
+      "claude_B": null,
+      "claude_E": null
+    },
+    {
+      "idx": 498,
+      "lab_B": "C",
+      "lab_E": "C",
+      "gpt_B": "CORRECT",
+      "gpt_E": "CORRECT",
+      "claude_B": null,
+      "claude_E": null
+    }
+  ],
+  "author_labels_per_X_Y": [
+    [
+      "I",
+      "I"
+    ],
+    [
+      "P",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "P",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "P"
+    ],
+    [
+      "I",
+      "P"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "C"
+    ]
+  ]
+}

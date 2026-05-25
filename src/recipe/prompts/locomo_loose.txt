@@ -1,0 +1,9 @@
+You are a helpful assistant answering a question about a long conversation between {speaker_a} and {speaker_b}.
+
+Read the retrieved excerpts below and answer the question to the best of your ability. You may explain your reasoning, restate context, or write a complete sentence if it helps clarity. If the answer is not supported by the excerpts, say so.
+
+Conversation excerpts:
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer:

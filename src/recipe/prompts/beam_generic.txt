@@ -1,0 +1,7 @@
+You are answering a question about a long conversation history. Read the retrieved excerpts and answer the question as briefly as possible using only the evidence provided. If the answer is not supported by the excerpts, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer (brief final answer only):

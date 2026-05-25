@@ -1,0 +1,807 @@
+{
+  "seed": 20260506,
+  "n_items": 100,
+  "key": [
+    {
+      "item_id": 1,
+      "qid": "gpt4_2487a7cb",
+      "lme_idx": 1,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 2,
+      "qid": "gpt4_2312f94c",
+      "lme_idx": 3,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 3,
+      "qid": "bbf86515",
+      "lme_idx": 9,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 4,
+      "qid": "f0853d11",
+      "lme_idx": 12,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 5,
+      "qid": "gpt4_6ed717ea",
+      "lme_idx": 13,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 6,
+      "qid": "gpt4_93159ced",
+      "lme_idx": 16,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 7,
+      "qid": "c8090214",
+      "lme_idx": 22,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 8,
+      "qid": "gpt4_b4a80587",
+      "lme_idx": 28,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 9,
+      "qid": "gpt4_7de946e7",
+      "lme_idx": 33,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 10,
+      "qid": "993da5e2",
+      "lme_idx": 35,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 11,
+      "qid": "a3045048",
+      "lme_idx": 36,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 12,
+      "qid": "6613b389",
+      "lme_idx": 44,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 13,
+      "qid": "gpt4_0a05b494",
+      "lme_idx": 46,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 14,
+      "qid": "gpt4_c27434e8",
+      "lme_idx": 51,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 15,
+      "qid": "gpt4_fe651585",
+      "lme_idx": 52,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 16,
+      "qid": "982b5123_abs",
+      "lme_idx": 56,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 17,
+      "qid": "gpt4_c27434e8_abs",
+      "lme_idx": 58,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 18,
+      "qid": "b5ef892d",
+      "lme_idx": 63,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 19,
+      "qid": "gpt4_15e38248",
+      "lme_idx": 78,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 20,
+      "qid": "d23cf73b",
+      "lme_idx": 81,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 21,
+      "qid": "gpt4_7fce9456",
+      "lme_idx": 82,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 22,
+      "qid": "d682f1a2",
+      "lme_idx": 83,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 23,
+      "qid": "d851d5ba",
+      "lme_idx": 101,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 24,
+      "qid": "10d9b85a",
+      "lme_idx": 107,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 25,
+      "qid": "c2ac3c61",
+      "lme_idx": 111,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 26,
+      "qid": "bf659f65",
+      "lme_idx": 112,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 27,
+      "qid": "gpt4_2f91af09",
+      "lme_idx": 114,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 28,
+      "qid": "71315a70",
+      "lme_idx": 128,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 29,
+      "qid": "4d6b87c8",
+      "lme_idx": 136,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 30,
+      "qid": "0f05491a",
+      "lme_idx": 137,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 31,
+      "qid": "08e075c7",
+      "lme_idx": 138,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 32,
+      "qid": "b6019101",
+      "lme_idx": 142,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 33,
+      "qid": "72e3ee87",
+      "lme_idx": 148,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 34,
+      "qid": "603deb26",
+      "lme_idx": 165,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 35,
+      "qid": "59524333",
+      "lme_idx": 166,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 36,
+      "qid": "0ddfec37",
+      "lme_idx": 172,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 37,
+      "qid": "69fee5aa",
+      "lme_idx": 176,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 38,
+      "qid": "06db6396",
+      "lme_idx": 181,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 39,
+      "qid": "ba61f0b9",
+      "lme_idx": 186,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 40,
+      "qid": "2698e78f_abs",
+      "lme_idx": 194,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 41,
+      "qid": "2133c1b5_abs",
+      "lme_idx": 195,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 42,
+      "qid": "57f827a0",
+      "lme_idx": 216,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 43,
+      "qid": "fca70973",
+      "lme_idx": 222,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 44,
+      "qid": "6ae235be",
+      "lme_idx": 235,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 45,
+      "qid": "8aef76bc",
+      "lme_idx": 250,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 46,
+      "qid": "2bf43736",
+      "lme_idx": 252,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 47,
+      "qid": "3249768e",
+      "lme_idx": 255,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 48,
+      "qid": "1b9b7252",
+      "lme_idx": 256,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 49,
+      "qid": "e8a79c70",
+      "lme_idx": 259,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 50,
+      "qid": "41275add",
+      "lme_idx": 271,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 51,
+      "qid": "b759caee",
+      "lme_idx": 275,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 52,
+      "qid": "1de5cff2",
+      "lme_idx": 283,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 53,
+      "qid": "f8c5f88b",
+      "lme_idx": 295,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 54,
+      "qid": "3b6f954b",
+      "lme_idx": 299,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 55,
+      "qid": "94f70d80",
+      "lme_idx": 301,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 56,
+      "qid": "c8c3f81d",
+      "lme_idx": 306,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 57,
+      "qid": "75499fd8",
+      "lme_idx": 309,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 58,
+      "qid": "b86304ba",
+      "lme_idx": 316,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 59,
+      "qid": "caf9ead2",
+      "lme_idx": 319,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 60,
+      "qid": "60d45044",
+      "lme_idx": 321,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 61,
+      "qid": "ec81a493",
+      "lme_idx": 325,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 62,
+      "qid": "e01b8e2f",
+      "lme_idx": 327,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 63,
+      "qid": "bc8a6e93",
+      "lme_idx": 328,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 64,
+      "qid": "001be529",
+      "lme_idx": 330,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 65,
+      "qid": "8a137a7f",
+      "lme_idx": 335,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 66,
+      "qid": "1faac195",
+      "lme_idx": 343,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 67,
+      "qid": "c14c00dd",
+      "lme_idx": 346,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 68,
+      "qid": "36580ce8",
+      "lme_idx": 347,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 69,
+      "qid": "a82c026e",
+      "lme_idx": 349,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 70,
+      "qid": "bc8a6e93_abs",
+      "lme_idx": 352,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 71,
+      "qid": "gpt4_f49edff3",
+      "lme_idx": 357,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 72,
+      "qid": "gpt4_fa19884c",
+      "lme_idx": 360,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 73,
+      "qid": "gpt4_7a0daae1",
+      "lme_idx": 376,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 74,
+      "qid": "gpt4_1e4a8aeb",
+      "lme_idx": 379,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 75,
+      "qid": "gpt4_4fc4f797",
+      "lme_idx": 380,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 76,
+      "qid": "6e984301",
+      "lme_idx": 390,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 77,
+      "qid": "gpt4_b0863698",
+      "lme_idx": 404,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 78,
+      "qid": "gpt4_68e94287",
+      "lme_idx": 405,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 79,
+      "qid": "2ebe6c92",
+      "lme_idx": 409,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 80,
+      "qid": "71017277",
+      "lme_idx": 411,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 81,
+      "qid": "b46e15ee",
+      "lme_idx": 412,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 82,
+      "qid": "gpt4_d6585ce9",
+      "lme_idx": 413,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 83,
+      "qid": "gpt4_1e4a8aec",
+      "lme_idx": 414,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 84,
+      "qid": "gpt4_b5700ca0",
+      "lme_idx": 427,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 85,
+      "qid": "2311e44b",
+      "lme_idx": 430,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 86,
+      "qid": "f35224e0",
+      "lme_idx": 441,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 87,
+      "qid": "3c1045c8",
+      "lme_idx": 444,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 88,
+      "qid": "77eafa52",
+      "lme_idx": 458,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 89,
+      "qid": "8979f9ec",
+      "lme_idx": 459,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 90,
+      "qid": "3fe836c9",
+      "lme_idx": 463,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 91,
+      "qid": "1c549ce4",
+      "lme_idx": 464,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 92,
+      "qid": "ef9cf60a",
+      "lme_idx": 473,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 93,
+      "qid": "73d42213",
+      "lme_idx": 474,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 94,
+      "qid": "d6062bb9",
+      "lme_idx": 478,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 95,
+      "qid": "c18a7dc8",
+      "lme_idx": 480,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 96,
+      "qid": "a08a253f",
+      "lme_idx": 483,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 97,
+      "qid": "87f22b4a",
+      "lme_idx": 490,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 98,
+      "qid": "efc3f7c2",
+      "lme_idx": 492,
+      "X_is_B": false,
+      "X_cell": "E (tight-per-cat)",
+      "Y_cell": "B (loose)"
+    },
+    {
+      "item_id": 99,
+      "qid": "2311e44b_abs",
+      "lme_idx": 494,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    },
+    {
+      "item_id": 100,
+      "qid": "e5ba910e_abs",
+      "lme_idx": 496,
+      "X_is_B": true,
+      "X_cell": "B (loose)",
+      "Y_cell": "E (tight-per-cat)"
+    }
+  ],
+  "note": "DO NOT share with raters. Used after rater submission to map X/Y back to cell B (loose) / cell E (tight-per-cat)."
+}

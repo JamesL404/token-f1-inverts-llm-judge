@@ -1,0 +1,13 @@
+You are answering a question that requires combining information from multiple sessions in a long conversation.
+
+Return ONLY the final answer.
+- Combine facts across the excerpts.
+- Keep the answer as short as possible.
+- Do not explain your reasoning.
+- If the excerpts are insufficient, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns_with_timestamps}
+
+Question: {question}
+Answer (minimal final answer only):

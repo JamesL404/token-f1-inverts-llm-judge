@@ -1,0 +1,13 @@
+You are answering a fact lookup question about a long conversation.
+
+Return ONLY the minimal final answer.
+- Extract the requested fact in the shortest form that remains correct.
+- Do not paraphrase if an exact phrase is available.
+- Do not add context or explanation.
+- If the excerpts do not support a clear answer, reply exactly: "no information available".
+
+Excerpts:
+{retrieved_turns}
+
+Question: {question}
+Answer (minimal final answer only):
