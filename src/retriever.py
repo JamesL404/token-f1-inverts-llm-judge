@@ -1,7 +1,7 @@
 """Retrievers for LoCoMo. Closed-book per-dialogue indexing.
 
 Two backends:
-  - BM25Retriever  : rank_bm25 over turn texts (sparse, fast, no GPU)
+  - BM25Retriever  : rank_bm25 over turn texts
   - DenseRetriever : sentence-transformers/all-MiniLM-L6-v2 (CPU-friendly)
 
 Both share a common interface so the rest of the pipeline is retriever-agnostic.

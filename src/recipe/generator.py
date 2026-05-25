@@ -3,7 +3,7 @@
 Pluggable backends:
   - DummyLLM: returns the question text (CPU sanity check, no LLM)
   - OpenAILLM: OpenAI / vLLM-OpenAI compatible (lazy import)
-  - HFLocalLLM: local HuggingFace causal LM, intended for direct GPU runs
+  - HFLocalLLM: local HuggingFace causal LM, uses HuggingFace transformers for local inference
 
 The interface is intentionally minimal so the rest of the C-RAG pipeline
 can be tested end-to-end on CPU before any LLM serving is set up.
@@ -124,7 +124,7 @@ class HFLocalLLM(Generator):
     """Local HuggingFace causal LM backend.
 
     This is the fallback path when vLLM is unavailable but a local model is
-    cached and GPUs are available. It is intentionally single-prompt to fit
+    cached. It is intentionally single-prompt to fit
     the existing CRAG interface.
     """
 
@@ -142,7 +142,7 @@ class HFLocalLLM(Generator):
         self.model = model
         self._torch = torch
         if torch_dtype == "auto":
-            dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
+            dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32  # bf16 when accelerator present
         else:
             dtype = getattr(torch, torch_dtype)
         self._tokenizer = AutoTokenizer.from_pretrained(model, trust_remote_code=True)

@@ -115,7 +115,7 @@ table) is produced by `scripts/analyze_crag7.py` (TODO).
 
 - 5 methods x 3 benchmarks x 2 settings = 30 cells
 - Per cell: 160-1986 Qs, ~0.2 s/Q on Qwen2.5-14B = 30 s - 7 min
-- Total: ~2-3 hours wall time on GPUs 3+4
+- Total: ~2-3 hours wall time 
 
 This is compatible with a single overnight run if we serialize cells.
 

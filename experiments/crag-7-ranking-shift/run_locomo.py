@@ -2,7 +2,7 @@
 
 Same 2x3 cell structure as the LongMemEval version, but heavier:
 1986 Qs/cell × ~0.5-0.7s/Q ~= 18-24 min/cell × 5 new cells ~= 1.5-2 hours
-on GPUs 3+4.
+on a local accelerator+4.
 
 Cell labels are L-prefixed to distinguish from the LME crag-7 cells:
   LE: flat        + tight-per-category  (already run as crag-1 prompt-fix on LoCoMo, 0.4065)

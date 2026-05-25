@@ -12,9 +12,9 @@ git clone <THIS_REPO> token-f1-inverts && cd token-f1-inverts
 conda create -n tokenf1 python=3.11 -y && conda activate tokenf1
 pip install -r requirements.txt
 
-# 2. Set API keys (gpt-4o-mini for FCS extraction + LLM-judge; Claude for cross-judge)
+# 2. Set API keys — see "API keys" section below for details
 cp .env.example .env
-# Edit .env with your OPENAI_API_KEY and ANTHROPIC_API_KEY
+# Edit .env to fill in OPENAI_API_KEY and ANTHROPIC_API_KEY
 
 # 3. Download benchmark data (see data/README.md)
 # LongMemEval: https://github.com/xiaowu0162/LongMemEval
@@ -26,6 +26,45 @@ python experiments/crag-7-ranking-shift/llm_judge.py \
   --cell-j experiments/crag-7-ranking-shift/results_7J_lme_flat_tight_fcs.json \
   --output results_llm_judge_e_vs_j.json
 ```
+
+---
+
+## API keys
+
+All scripts that call LLM APIs load credentials from a `.env` file at the **repository root**.
+
+**Setup:**
+
+```bash
+cp .env.example .env
+```
+
+Then open `.env` in your editor and fill in:
+
+```
+OPENAI_API_KEY=sk-your-openai-key-here
+ANTHROPIC_API_KEY=sk-ant-your-anthropic-key-here
+```
+
+**Where each key is used:**
+
+| Key | Used by |
+|---|---|
+| `OPENAI_API_KEY` | `gpt-4o-mini` for the primary LLM-judge harness (`experiments/crag-7-ranking-shift/llm_judge*.py`); Mem0 / A-MEM extraction layer (`mem0ai`, `agentic_memory`); HippoRAG OpenIE + text-embedding-3-small (`hipporag`); FCS 5-seed leakage ablation (`experiments/crag-10-fcs-heldout/`) |
+| `ANTHROPIC_API_KEY` | `Claude-Sonnet-4.5` for the cross-family LLM-judge replication (`experiments/crag-7-ranking-shift/llm_judge_cross.py`, `experiments/crag-9-faithful-repro/llm_judge_faithful_vs_cellj.py`) |
+
+**Security:**
+
+- `.env` is in `.gitignore` — keys never leave your machine
+- Never commit `.env` or paste keys into shared docs / issues / pull requests
+- For shared compute (e.g. lab clusters), consider setting the keys as environment variables in your shell init (`~/.bashrc`) instead of writing them to `.env`. The scripts load via `os.environ` if the variable is already set.
+
+**Approximate cost to reproduce all main results:** ~$15 USD total in API calls. The bulk is gpt-4o-mini judge calls (~$10) and Claude cross-family judge (~$5).
+
+**Optional keys:**
+
+- `HF_TOKEN`: HuggingFace access token if loading gated models (e.g. Llama-3.1-8B-Instruct). Not required for the open Qwen models used as the primary backbone.
+- `HF_HOME` / `TRANSFORMERS_CACHE`: override the default HuggingFace cache location if your home directory has limited space.
 
 ---
 
@@ -143,9 +182,9 @@ The sealed-key X/Y blinding file is `human_annotation/UNBLIND_KEY_DO_NOT_SHOW_RA
 
 ## Compute requirements
 
-- **CPU-only**: BM25 retrieval, statistical analysis, figure generation
-- **GPU**: 2×A100-80GB (one for Qwen-14B inference, one buffer). Smaller GPUs work for Qwen-3B/7B.
-- **API**: OpenAI (gpt-4o-mini for LLM-judge + Mem0/HippoRAG/A-MEM extraction); Anthropic (Claude-Sonnet-4.5 for cross-family judge). Total API cost to reproduce all main results: ~$15.
+- **CPU-only paths**: BM25 retrieval, all statistical analysis (paired-bootstrap, McNemar, inter-rater κ), figure generation
+- **Local inference paths**: any setup that can run the relevant HuggingFace causal LM (Qwen2.5-3B/7B/14B-Instruct, Mistral-7B-Instruct-v0.3, Llama-3.1-8B-Instruct). The primary backbone (Qwen-14B) requires sufficient memory to hold a 14B-parameter model in bfloat16
+- **API paths**: see "API keys" section above. Total ~$15 USD to reproduce all main results
 
 ---
 
